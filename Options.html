@@ -3,8 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Options</title>
+    <link rel="stylesheet" type = "text/css" href="styles.css">
+    <script type="text/javascript" src="js/scripts.js"></script>
 </head>
 <body>
+<input type = "button" value = "Back to Main Screen" onclick="MainScreen()">
 
+<h3>Choose your back of the card style.</h3>
+
+<input type = "radio" name = "card"   id = "dflt1" checked = "true">  Default #1 <br>
+<input type = "radio" name = "card"   id = "dflt2">                   Default #2 <br>
+<input type = "radio" name = "card"   id = "dflt3">                   Default #3 <br>
+<input type = "radio" name = "card"   id = "cst">                     Custom     <br>
+    <p>Input file path to Custom picture</p>
+    <input type = "text" id = "cstlink">
 </body>
 </html>
