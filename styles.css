@@ -4,3 +4,19 @@ body{
 h1{
 
 }
+#playfield{
+    position: absolute;
+    right: 250px;
+    top: 250px;
+}
+
+#cpt{
+    position: absolute;
+    right: 250px;
+}
+
+td{
+    height: 135px;
+    width:  87px;
+    border: dashed;
+}
