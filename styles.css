@@ -12,11 +12,16 @@ h1{
 
 #cpt{
     position: absolute;
-    right: 250px;
+    right: 200px;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 100px 50px;
 }
 
 td{
-    height: 135px;
-    width:  87px;
+    height: 181px;
+    width:  125px;
     border: dashed;
 }
