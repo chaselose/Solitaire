@@ -62,11 +62,21 @@ var spdJ = src =  "cards/jack_of_spades2";
 var spdQ = src =  "cards/queen_of_spades2";
 var spdK = src =  "cards/king_of_spades2";
 
-var back = document.getElementById("cardBack").innerHTML;
+var $ = document.getElementByID;
 
+function EnableCustom(){
+    var isChecked = $("cst").checked;
+
+    if(isChecked == true){
+        $("cardback").disabled = false;
+    }
+    else{
+        $("cardback").disabled = true;
+    }
+}
 function Play(){
     var cardval;
-   cardval = math.floor((math.random() * 52) + 1);
+   cardval = Math.floor((Math.random() * 52) + 1);
 
     if (cardval == 1){
         diA;

@@ -11,16 +11,16 @@
 
 <h3>Choose your back of the card style.</h3>
 
-<input type = "radio" name = "card"   id = "dflt1" checked = "true">  Default #1 <br>
-<input type = "radio" name = "card"   id = "dflt2">                   Default #2 <br>
-<input type = "radio" name = "card"   id = "dflt3">                   Default #3 <br>
-<input type = "radio" name = "card"   id = "cst">                     Custom     <br>
+<input type = "radio" name = "card"   id = "dflt1" checked = "true">                                   Default #1 <br>
+<input type = "radio" name = "card"   id = "dflt2">                                                    Default #2 <br>
+<input type = "radio" name = "card"   id = "dflt3">                                                    Default #3 <br>
+<input type = "radio" name = "card"   id = "cst"    onclick = "EnableCustom()">                        Custom     <br>
 
     <p>Input file path to Custom picture</p>
-    <input type = "file" id = "cardback">
+    <input type = "file" id = "cardback" disabled = true>
 
     <br>
 
-
+    <div id = "output"></div>
 </body>
 </html>
