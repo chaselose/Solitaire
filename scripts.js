@@ -62,7 +62,9 @@ var spdJ = src =  "cards/jack_of_spades2";
 var spdQ = src =  "cards/queen_of_spades2";
 var spdK = src =  "cards/king_of_spades2";
 
-var $ = document.getElementByID;
+function $(name){
+    return document.getElementById(name)
+}
 
 function EnableCustom(){
     var isChecked = $("cst").checked;
