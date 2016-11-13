@@ -65,7 +65,7 @@ var spdK = src =  "cards/king_of_spades2";
 function $(name){
     return document.getElementById(name)
 }
-
+    
 function EnableCustom(){
     var isChecked = $("cst").checked;
 
@@ -76,6 +76,7 @@ function EnableCustom(){
         $("cardback").disabled = true;
     }
 }
+
 function Play(){
     var cardval;
    cardval = Math.floor((Math.random() * 52) + 1);
@@ -235,5 +236,29 @@ function Play(){
     }
     else if(cardval == 52){
         spdK;
+    }
+}
+
+var defult1 = $("dflt1").checked;
+var defult2 = $("dflt2").checked;
+var defult3 = $("dflt3").checked;
+
+function showImage(){
+    if (isChecked == true){
+        var card = $("cardback").innerHTML;
+        $("img").innerHTML = card;
+        return card;
+    }
+    else if (defult1 == true){
+        $("img").innerHTML = defult1;
+        return defult1;
+    }
+    else if (defult2 == true){
+        $("img").innerHTML = defult2;
+        return defult2;
+    }
+    else if (defult3 == true){
+        $("img").innerHTML = defult3;
+        return defult3;
     }
 }
