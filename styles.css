@@ -20,6 +20,11 @@ table{
     border-spacing: 100px 50px;
 }
 
+#table1{
+    border-collapse: separate;
+    border-spacing: 50px 50px;
+}
+
 td{
     height: 181px;
     width:  125px;

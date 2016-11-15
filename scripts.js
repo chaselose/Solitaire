@@ -242,23 +242,59 @@ function Play(){
 var defult1 = $("dflt1").checked;
 var defult2 = $("dflt2").checked;
 var defult3 = $("dflt3").checked;
+var card = $("img").innerHTML;
 
-function showImage(){
+//This function block needs some work
+/*function showImage(){
     if (isChecked == true){
-        var card = $("cardback").innerHTML;
-        $("img").innerHTML = card;
-        return card;
+        cardback = $("cardback").innerHTML;
+        return cardback;
     }
-    else if (defult1 == true){
-        $("img").innerHTML = defult1;
+    else if (defult1 == true)
+        defult1 = "cards/back-1";
         return defult1;
     }
     else if (defult2 == true){
-        $("img").innerHTML = defult2;
+        defult2 = "cards/back-2";
         return defult2;
     }
     else if (defult3 == true){
-        $("img").innerHTML = defult3;
-        return defult3;
+        defult3 = "cards/back-3";
+        return defult3
     }
+}*/
+
+// Main Menu buttons and options
+function MainScreen(){
+    window.location.href = "Main Screen.html"
+}
+
+function Options(){
+    window.location.href = "Options.html"
+}
+
+function Play(){
+    window.location.href = "Game.html"
+}
+
+//background color options
+
+
+function changeColor(value){
+    var color = document.body.style.backgroundColor;
+    switch(value){
+        case 'g':
+            color = "green";
+                break;
+        case 'r':
+            color = "red";
+                break;
+        case 'b':
+            color = "blue";
+                break;
+        case 'p':
+            color = "purple";
+                break;
+    }
+    document.body.style.backgroundColor = color;
 }
