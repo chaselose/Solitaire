@@ -242,27 +242,24 @@ function Play(){
 var defult1 = $("dflt1").checked;
 var defult2 = $("dflt2").checked;
 var defult3 = $("dflt3").checked;
-var card = $("img").innerHTML;
+var card;
 
 //This function block needs some work
-/*function showImage(){
+function showImage(){
     if (isChecked == true){
-        cardback = $("cardback").innerHTML;
-        return cardback;
+        card = $("cardback").innerHTML;
     }
-    else if (defult1 == true)
-        defult1 = "cards/back-1";
-        return defult1;
+    else if (defult1 == true){
+        card = "cards/back-1";
     }
     else if (defult2 == true){
-        defult2 = "cards/back-2";
-        return defult2;
+        card = "cards/back-2";
     }
     else if (defult3 == true){
-        defult3 = "cards/back-3";
-        return defult3
+        card = "cards/back-3";
     }
-}*/
+    $("output").innerHTML = card;
+}
 
 // Main Menu buttons and options
 function MainScreen(){

@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/Main Screen.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -46,8 +46,8 @@
       <file leaf-file-name="Game.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="663">
+              <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -66,8 +66,8 @@
       <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="280" column="0" selection-start-line="280" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="41" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
                 <element signature="n#!!block;n#Play#0" expanded="false" />
@@ -96,9 +96,9 @@
         <option value="$PROJECT_DIR$/styles.js" />
         <option value="$PROJECT_DIR$/testies testies.html" />
         <option value="$PROJECT_DIR$/Main Screen.html" />
-        <option value="$PROJECT_DIR$/Game.html" />
         <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/Options.html" />
+        <option value="$PROJECT_DIR$/Game.html" />
         <option value="$PROJECT_DIR$/scripts.js" />
       </list>
     </option>
@@ -140,6 +140,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -160,8 +162,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,12 +261,15 @@
       <workItem from="1478699673650" duration="4822000" />
       <workItem from="1478971928810" duration="1748000" />
       <workItem from="1479060606988" duration="3559000" />
-      <workItem from="1479169368051" duration="6350000" />
+      <workItem from="1479169368051" duration="6440000" />
+      <workItem from="1479322311112" duration="1768000" />
+      <workItem from="1479665183552" duration="846000" />
+      <workItem from="1480108999371" duration="1608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51129000" />
+    <option name="totallyTimeSpent" value="55441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -683,18 +686,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testies testies.html" />
-    <entry file="file://$PROJECT_DIR$/Main Screen.html">
+    <entry file="file://$PROJECT_DIR$/Game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="663">
+          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Game.html">
+    <entry file="file://$PROJECT_DIR$/Main Screen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -717,8 +720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="280" column="0" selection-start-line="280" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="41" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
             <element signature="n#!!block;n#Play#0" expanded="false" />
