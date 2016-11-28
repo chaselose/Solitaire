@@ -3,64 +3,64 @@
  */
 
 //Diamonds
-var diA =  src = "cards/ace_of_diamonds";
-var di2 =  src = "cards/2_of_diamonds";
-var di3 =  src = "cards/3_of_diamonds";
-var di4 =  src = "cards/4_of_diamonds";
-var di5 =  src =  "cards/5_of_diamonds";
-var di6 =  src =  "cards/6_of_diamonds";
-var di7 =  src =  "cards/7_of_diamonds";
-var di8 =  src =  "cards/8_of_diamonds";
-var di9 =  src =  "cards/9_of_diamonds";
-var di0 =  src =  "cards/10_of_diamonds";
-var diJ =  src =  "cards/jack_of_diamonds2";
-var diQ =  src =  "cards/queen_of_diamonds2";
-var diK =  src =  "cards/king_of_diamonds2";
+var diA =  src = "cards/ace_of_diamonds.png";
+var di2 =  src = "cards/2_of_diamonds.png";
+var di3 =  src = "cards/3_of_diamonds.png";
+var di4 =  src = "cards/4_of_diamonds.png";
+var di5 =  src =  "cards/5_of_diamonds.png";
+var di6 =  src =  "cards/6_of_diamonds.png";
+var di7 =  src =  "cards/7_of_diamonds.png";
+var di8 =  src =  "cards/8_of_diamonds.png";
+var di9 =  src =  "cards/9_of_diamonds.png";
+var di0 =  src =  "cards/10_of_diamonds.png";
+var diJ =  src =  "cards/jack_of_diamonds2.png";
+var diQ =  src =  "cards/queen_of_diamonds2.png";
+var diK =  src =  "cards/king_of_diamonds2.png";
 
 //Hearts
-var hrtA = src =  "cards/ace_of_hearts";
-var hrt2 = src =  "cards/2_of_hearts";
-var hrt3 = src =  "cards/3_of_hearts";
-var hrt4 = src =  "cards/4_of_hearts";
-var hrt5 = src =  "cards/5_of_hearts";
-var hrt6 = src =  "cards/6_of_hearts";
-var hrt7 = src =  "cards/7_of_hearts";
-var hrt8 = src =  "cards/8_of_hearts";
-var hrt9 = src =  "cards/9_of_hearts";
-var hrt0 = src =  "cards/10_of_hearts";
-var hrtJ = src =  "cards/jack_of_hearts2";
-var hrtQ = src =  "cards/queen_of_hearts2";
-var hrtK = src =  "cards/king_of_hearts2";
+var hrtA = src =  "cards/ace_of_hearts.png";
+var hrt2 = src =  "cards/2_of_hearts.png";
+var hrt3 = src =  "cards/3_of_hearts.png";
+var hrt4 = src =  "cards/4_of_hearts.png";
+var hrt5 = src =  "cards/5_of_hearts.png";
+var hrt6 = src =  "cards/6_of_hearts.png";
+var hrt7 = src =  "cards/7_of_hearts.png";
+var hrt8 = src =  "cards/8_of_hearts.png";
+var hrt9 = src =  "cards/9_of_hearts.png";
+var hrt0 = src =  "cards/10_of_hearts.png";
+var hrtJ = src =  "cards/jack_of_hearts2.png";
+var hrtQ = src =  "cards/queen_of_hearts2.png";
+var hrtK = src =  "cards/king_of_hearts2.png";
 
 //Clubs
-var clbA = src =  "cards/ace_of_clubs";
-var clb2 = src =  "cards/2_of_clubs";
-var clb3 = src =  "cards/3_of_clubs";
-var clb4 = src =  "cards/4_of_clubs";
-var clb5 = src =  "cards/5_of_clubs";
-var clb6 = src =  "cards/6_of_clubs";
-var clb7 = src =  "cards/7_of_clubs";
-var clb8 = src =  "cards/8_of_clubs";
-var clb9 = src =  "cards/9_of_clubs";
-var clb0 = src =  "cards/10_of_clubs";
-var clbJ = src =  "cards/jack_of_clubs2";
-var clbQ = src =  "cards/queen_of_clubs2";
-var clbK = src =  "cards/king_of_clubs2";
+var clbA = src =  "cards/ace_of_clubs.png";
+var clb2 = src =  "cards/2_of_clubs.png";
+var clb3 = src =  "cards/3_of_clubs.png";
+var clb4 = src =  "cards/4_of_clubs.png";
+var clb5 = src =  "cards/5_of_clubs.png";
+var clb6 = src =  "cards/6_of_clubs.png";
+var clb7 = src =  "cards/7_of_clubs.png";
+var clb8 = src =  "cards/8_of_clubs.png";
+var clb9 = src =  "cards/9_of_clubs.png";
+var clb0 = src =  "cards/10_of_clubs.png";
+var clbJ = src =  "cards/jack_of_clubs2.png";
+var clbQ = src =  "cards/queen_of_clubs2.png";
+var clbK = src =  "cards/king_of_clubs2.png";
 
 //Spades
-var spdA = src =  "cards/ace_of_spades";
-var spd2 = src =  "cards/2_of_spades";
-var spd3 = src =  "cards/3_of_spades";
-var spd4 = src =  "cards/4_of_spades";
-var spd5 = src =  "cards/5_of_spades";
-var spd6 = src =  "cards/6_of_spades";
-var spd7 = src =  "cards/7_of_spades";
-var spd8 = src =  "cards/8_of_spades";
-var spd9 = src =  "cards/9_of_spades";
-var spd0 = src =  "cards/10_of_spades";
-var spdJ = src =  "cards/jack_of_spades2";
-var spdQ = src =  "cards/queen_of_spades2";
-var spdK = src =  "cards/king_of_spades2";
+var spdA = src =  "cards/ace_of_spades.png";
+var spd2 = src =  "cards/2_of_spades.png";
+var spd3 = src =  "cards/3_of_spades.png";
+var spd4 = src =  "cards/4_of_spades.png";
+var spd5 = src =  "cards/5_of_spades.png";
+var spd6 = src =  "cards/6_of_spades.png";
+var spd7 = src =  "cards/7_of_spades.png";
+var spd8 = src =  "cards/8_of_spades.png";
+var spd9 = src =  "cards/9_of_spades.png";
+var spd0 = src =  "cards/10_of_spades.png";
+var spdJ = src =  "cards/jack_of_spades2.png";
+var spdQ = src =  "cards/queen_of_spades2.png";
+var spdK = src =  "cards/king_of_spades2.png";
 
 function $(name){
     return document.getElementById(name)
@@ -250,15 +250,15 @@ function showImage(){
         card = $("cardback").innerHTML;
     }
     else if (defult1 == true){
-        card = "cards/back-1";
+        card = "cards/back-1.png";
     }
     else if (defult2 == true){
-        card = "cards/back-2";
+        card = "cards/back-2.jpg";
     }
     else if (defult3 == true){
-        card = "cards/back-3";
+        card = "cards/back-3.jpg";
     }
-    $("output").innerHTML = card;
+    $("output").src = card;
 }
 
 // Main Menu buttons and options
