@@ -4210,337 +4210,335 @@ function Play(){
             }
         }
 
-
+//
         while ((drawNum[26] == drawNum[1]) || (drawNum[26] == drawNum[2]) || (drawNum[26] == drawNum[3]) || (drawNum[26] == drawNum[4]) || (drawNum[26] == drawNum[5]) || (drawNum[26]
         == drawNum[6]) || (drawNum[26] == drawNum[7]) || (drawNum[26] == drawNum[8]) || (drawNum[26] == drawNum[9]) || (drawNum[26] == drawNum[10]) || (drawNum[26] == drawNum[11])
         || (drawNum[26] == drawNum[12]) || (drawNum[26] == drawNum[13]) || (drawNum[26] == drawNum[14]) || (drawNum[26] == drawNum[15]) || (drawNum[26] == drawNum[16])
         || (drawNum[26] == drawNum[17]) || (drawNum[26] == drawNum[18]) || (drawNum[26] == drawNum[19]) || (drawNum[26] == drawNum[20]) || (drawNum[26] == drawNum[21])
         || (drawNum[26] == drawNum[22]) || (drawNum[26] == drawNum[23]) || (drawNum[26] == drawNum[24]) || (drawNum[26] == drawNum[25]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div7-13").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div7-13").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div7-13").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div7-13").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div7-13").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div7-13").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div7-13").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div7-13").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div7-13").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div7-13").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div7-13").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div7-13").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div7-13").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div7-13").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div7-13").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div7-13").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div7-13").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div7-13").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div7-13").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div7-13").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div7-13").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div7-13").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div7-13").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div7-13").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div7-13").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div7-13").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div7-13").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div7-13").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div7-13").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div7-13").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div7-13").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div7-13").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div7-13").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div7-13").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div7-13").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div7-13").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div7-13").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div7-13").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div7-13").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div7-13").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div7-13").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div7-13").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div7-13").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div7-13").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div7-13").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div7-13").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div7-13").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div7-13").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div7-13").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div7-13").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div7-13").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div7-13").src = spd10;
+            }}
+//
         while ((drawNum[27] == drawNum[1]) || (drawNum[27] == drawNum[2]) || (drawNum[27] == drawNum[3]) || (drawNum[27] == drawNum[4]) || (drawNum[27] == drawNum[5]) || (drawNum[27]
         == drawNum[6]) || (drawNum[27] == drawNum[7]) || (drawNum[27] == drawNum[8]) || (drawNum[27] == drawNum[9]) || (drawNum[27] == drawNum[10]) || (drawNum[27] == drawNum[11])
         || (drawNum[27] == drawNum[12]) || (drawNum[27] == drawNum[13]) || (drawNum[27] == drawNum[14]) || (drawNum[27] == drawNum[15]) || (drawNum[27] == drawNum[16])
         || (drawNum[27] == drawNum[17]) || (drawNum[27] == drawNum[18]) || (drawNum[27] == drawNum[19]) || (drawNum[27] == drawNum[20]) || (drawNum[27] == drawNum[21])
         || (drawNum[27] == drawNum[22]) || (drawNum[27] == drawNum[23]) || (drawNum[27] == drawNum[24]) || (drawNum[27] == drawNum[25]) || (drawNum[27] == drawNum[26]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div7-12").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div7-12").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div7-12").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div7-12").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div7-12").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div7-12").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div7-12").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div7-12").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div7-12").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div7-12").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div7-12").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div7-12").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div7-12").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div7-12").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div7-12").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div7-12").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div7-12").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div7-12").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div7-12").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div7-12").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div7-12").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div7-12").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div7-12").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div7-12").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div7-12").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div7-12").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div7-12").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div7-12").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div7-12").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div7-12").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div7-12").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div7-12").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div7-12").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div7-12").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div7-12").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div7-12").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div7-12").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div7-12").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div7-12").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div7-12").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div7-12").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div7-12").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div7-12").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div7-12").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div7-12").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div7-12").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div7-12").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div7-12").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div7-12").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div7-12").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div7-12").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div7-12").src = spd10;
+            }}
+//
         while ((drawNum[28] == drawNum[1]) || (drawNum[28] == drawNum[2]) || (drawNum[28] == drawNum[3]) || (drawNum[28] == drawNum[4]) || (drawNum[28] == drawNum[5]) || (drawNum[28]
         == drawNum[6]) || (drawNum[28] == drawNum[7]) || (drawNum[28] == drawNum[8]) || (drawNum[28] == drawNum[9]) || (drawNum[28] == drawNum[10]) || (drawNum[28] == drawNum[11])
         || (drawNum[28] == drawNum[12]) || (drawNum[28] == drawNum[13]) || (drawNum[28] == drawNum[14]) || (drawNum[28] == drawNum[15]) || (drawNum[28] == drawNum[16])
@@ -4548,165 +4546,164 @@ function Play(){
         || (drawNum[28] == drawNum[22]) || (drawNum[28] == drawNum[23]) || (drawNum[28] == drawNum[24]) || (drawNum[28] == drawNum[25]) || (drawNum[28] == drawNum[26])
         || (drawNum[28] == drawNum[27]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div7-11").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div7-11").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div7-11").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div7-11").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div7-11").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div7-11").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div7-11").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div7-11").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div7-11").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div7-11").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div7-11").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div7-11").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div7-11").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div7-11").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div7-11").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div7-11").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div7-11").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div7-11").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div7-11").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div7-11").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div7-11").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div7-11").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div7-11").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div7-11").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div7-11").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div7-11").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div7-11").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div7-11").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div7-11").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div7-11").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div7-11").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div7-11").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div7-11").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div7-11").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div7-11").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div7-11").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div7-11").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div7-11").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div7-11").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div7-11").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div7-11").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div7-11").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div7-11").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div7-11").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div7-11").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div7-11").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div7-11").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div7-11").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div7-11").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div7-11").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div7-11").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div7-11").src = spd10;
+            }}
+//
         while ((drawNum[29] == drawNum[1]) || (drawNum[29] == drawNum[2]) || (drawNum[29] == drawNum[3]) || (drawNum[29] == drawNum[4]) || (drawNum[29] == drawNum[5]) || (drawNum[29]
         == drawNum[6]) || (drawNum[29] == drawNum[7]) || (drawNum[29] == drawNum[8]) || (drawNum[29] == drawNum[9]) || (drawNum[29] == drawNum[10]) || (drawNum[29] == drawNum[11])
         || (drawNum[29] == drawNum[12]) || (drawNum[29] == drawNum[13]) || (drawNum[29] == drawNum[14]) || (drawNum[29] == drawNum[15]) || (drawNum[29] == drawNum[16])
@@ -4714,165 +4711,164 @@ function Play(){
         || (drawNum[29] == drawNum[22]) || (drawNum[29] == drawNum[23]) || (drawNum[29] == drawNum[24]) || (drawNum[29] == drawNum[25]) || (drawNum[29] == drawNum[26])
         || (drawNum[29] == drawNum[27]) || (drawNum[29] == drawNum[28]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div7-10").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div7-10").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div7-10").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div7-10").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div7-10").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div7-10").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div7-10").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div7-10").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div7-10").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div7-10").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div7-10").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div7-10").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div7-10").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div7-10").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div7-10").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div7-10").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div7-10").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div7-10").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div7-10").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div7-10").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div7-10").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div7-10").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div7-10").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div7-10").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div7-10").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div7-10").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div7-10").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div7-10").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div7-10").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div7-10").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div7-10").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div7-10").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div7-10").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div7-10").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div7-10").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div7-10").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div7-10").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div7-10").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div7-10").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div7-10").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div7-10").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div7-10").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div7-10").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div7-10").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div7-10").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div7-10").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div7-10").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div7-10").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div7-10").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div7-10").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div7-10").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div7-10").src = spd10;
+            }}
+//
         while ((drawNum[30] == drawNum[1]) || (drawNum[30] == drawNum[2]) || (drawNum[30] == drawNum[3]) || (drawNum[30] == drawNum[4]) || (drawNum[30] == drawNum[5]) || (drawNum[30]
         == drawNum[6]) || (drawNum[30] == drawNum[7]) || (drawNum[30] == drawNum[8]) || (drawNum[30] == drawNum[9]) || (drawNum[30] == drawNum[10]) || (drawNum[30] == drawNum[11])
         || (drawNum[30] == drawNum[12]) || (drawNum[30] == drawNum[13]) || (drawNum[30] == drawNum[14]) || (drawNum[30] == drawNum[15]) || (drawNum[30] == drawNum[16])
@@ -4880,165 +4876,164 @@ function Play(){
         || (drawNum[30] == drawNum[22]) || (drawNum[30] == drawNum[23]) || (drawNum[30] == drawNum[24]) || (drawNum[30] == drawNum[25]) || (drawNum[30] == drawNum[26])
         || (drawNum[30] == drawNum[27]) || (drawNum[30] == drawNum[28]) || (drawNum[30] == drawNum[29])  )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div7-9").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div7-9").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div7-9").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div7-9").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div7-9").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div7-9").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div7-9").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div7-9").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div7-9").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div7-9").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div7-9").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div7-9").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div7-9").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div7-9").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div7-9").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div7-9").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div7-9").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div7-9").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div7-9").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div7-9").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div7-9").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div7-9").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div7-9").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div7-9").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div7-9").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div7-9").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div7-9").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div7-9").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div7-9").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div7-9").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div7-9").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div7-9").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div7-9").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div7-9").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div7-9").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div7-9").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div7-9").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div7-9").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div7-9").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div7-9").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div7-9").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div7-9").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div7-9").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div7-9").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div7-9").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div7-9").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div7-9").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div7-9").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div7-9").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div7-9").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div7-9").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div7-9").src = spd10;
+            }}
+//
         while ((drawNum[31] == drawNum[1]) || (drawNum[31] == drawNum[2]) || (drawNum[31] == drawNum[3]) || (drawNum[31] == drawNum[4]) || (drawNum[31] == drawNum[5]) || (drawNum[31]
         == drawNum[6]) || (drawNum[31] == drawNum[7]) || (drawNum[31] == drawNum[8]) || (drawNum[31] == drawNum[9]) || (drawNum[31] == drawNum[10]) || (drawNum[31] == drawNum[11])
         || (drawNum[31] == drawNum[12]) || (drawNum[31] == drawNum[13]) || (drawNum[31] == drawNum[14]) || (drawNum[31] == drawNum[15]) || (drawNum[31] == drawNum[16])
@@ -5046,165 +5041,164 @@ function Play(){
         || (drawNum[31] == drawNum[22]) || (drawNum[31] == drawNum[23]) || (drawNum[31] == drawNum[24]) || (drawNum[31] == drawNum[25]) || (drawNum[31] == drawNum[26])
         || (drawNum[31] == drawNum[27]) || (drawNum[31] == drawNum[28]) || (drawNum[31] == drawNum[29]) || (drawNum[31] == drawNum[30]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div7-8").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div7-8").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div7-8").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div7-8").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div7-8").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div7-8").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div7-8").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div7-8").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div7-8").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div7-8").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div7-8").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div7-8").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div7-8").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div7-8").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div7-8").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div7-8").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div7-8").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div7-8").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div7-8").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div7-8").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div7-8").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div7-8").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div7-8").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div7-8").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div7-8").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div7-8").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div7-8").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div7-8").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div7-8").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div7-8").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div7-8").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div7-8").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div7-8").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div7-8").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div7-8").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div7-8").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div7-8").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div7-8").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div7-8").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div7-8").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div7-8").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div7-8").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div7-8").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div7-8").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div7-8").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div7-8").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div7-8").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div7-8").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div7-8").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div7-8").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div7-8").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div7-8").src = spd10;
+            }}
+//
         while ((drawNum[32] == drawNum[1]) || (drawNum[32] == drawNum[2]) || (drawNum[32] == drawNum[3]) || (drawNum[32] == drawNum[4]) || (drawNum[32] == drawNum[5]) || (drawNum[32]
         == drawNum[6]) || (drawNum[32] == drawNum[7]) || (drawNum[32] == drawNum[8]) || (drawNum[32] == drawNum[9]) || (drawNum[32] == drawNum[10]) || (drawNum[32] == drawNum[11])
         || (drawNum[32] == drawNum[12]) || (drawNum[32] == drawNum[13]) || (drawNum[32] == drawNum[14]) || (drawNum[32] == drawNum[15]) || (drawNum[32] == drawNum[16])
@@ -5212,165 +5206,164 @@ function Play(){
         || (drawNum[32] == drawNum[22]) || (drawNum[32] == drawNum[23]) || (drawNum[32] == drawNum[24]) || (drawNum[32] == drawNum[25]) || (drawNum[32] == drawNum[26])
         || (drawNum[32] == drawNum[27]) || (drawNum[32] == drawNum[28]) || (drawNum[32] == drawNum[29]) || (drawNum[32] == drawNum[30])|| (drawNum[32] == drawNum[31]))
         {
-        drawNum[5] = (int)(Math.random()*MAX)+1;
-        if (drawNum = 1){
-            $("div1-1").src = diA;
-        }
-        else if (drawNum = 2){
-            $("div1-1").src = di2;
-        }
-        else if (drawNum = 3){
-            $("div1-1").src = di3;
-        }
-        else if (drawNum = 4){
-            $("div1-1").src = di4;
-        }
-        else if (drawNum = 5){
-            $("div1-1").src = di5;
-        }
-        else if (drawNum = 6){
-            $("div1-1").src = di6;
-        }
-        else if (drawNum = 7){
-            $("div1-1").src = di7;
-        }
-        else if (drawNum = 8){
-            $("div1-1").src = di8;
-        }
-        else if (drawNum = 9){
-            $("div1-1").src = di9;
-        }
-        else if (drawNum = 10){
-            $("div1-1").src = di10;
-        }
-        else if (drawNum = 11){
-            $("div1-1").src = diJ;
-        }
-        else if (drawNum = 12){
-            $("div1-1").src = diQ;
-        }
-        else if (drawNum = 13){
-            $("div1-1").src = diK;
-        }
-        else if (drawNum = 14){
-            $("div1-1").src = hrtA;
-        }
-        else if (drawNum = 15){
-            $("div1-1").src = hrt2;
-        }
-        else if (drawNum = 16){
-            $("div1-1").src = hrt3;
-        }
-        else if (drawNum = 17){
-            $("div1-1").src = hrt4;
-        }
-        else if (drawNum = 18){
-            $("div1-1").src = hrt5;
-        }
-        else if (drawNum = 19){
-            $("div1-1").src = hrt6;
-        }
-        else if (drawNum = 20){
-            $("div1-1").src = hrt7;
-        }
-        else if (drawNum = 21){
-            $("div1-1").src = hrt8;
-        }
-        else if (drawNum = 22){
-            $("div1-1").src = hrt9;
-        }
-        else if (drawNum = 23){
-            $("div1-1").src = hrt10;
-        }
-        else if (drawNum = 24){
-            $("div1-1").src = hrtJ;
-        }
-        else if (drawNum = 25){
-            $("div1-1").src = hrtQ;
-        }
-        else if (drawNum = 26){
-            $("div1-1").src = hrtK;
-        }
-        else if (drawNum = 27){
-            $("div1-1").src = clbA;
-        }
-        else if (drawNum = 28){
-            $("div1-1").src = clb2;
-        }
-        else if (drawNum = 29){
-            $("div1-1").src = clb3;
-        }
-        else if (drawNum = 30){
-            $("div1-1").src = clb4;
-        }
-        else if (drawNum = 31){
-            $("div1-1").src = clb5;
-        }
-        else if (drawNum = 32){
-            $("div1-1").src = clb6;
-        }
-        else if (drawNum = 33){
-            $("div1-1").src = clb7;
-        }
-        else if (drawNum = 34){
-            $("div1-1").src = clb8;
-        }
-        else if (drawNum = 35){
-            $("div1-1").src = clb9;
-        }
-        else if (drawNum = 36){
-            $("div1-1").src = clbJ;
-        }
-        else if (drawNum = 37){
-            $("div1-1").src = clbQ;
-        }
-        else if (drawNum = 38){
-            $("div1-1").src = clbK;
-        }
-        else if (drawNum = 39){
-            $("div1-1").src = spdA;
-        }
-        else if (drawNum = 40){
-            $("div1-1").src = spd2;
-        }
-        else if (drawNum = 41){
-            $("div1-1").src = spd3;
-        }
-        else if (drawNum = 42){
-            $("div1-1").src = spd4;
-        }
-        else if (drawNum = 43){
-            $("div1-1").src = spd5;
-        }
-        else if (drawNum = 44){
-            $("div1-1").src = spd6;
-        }
-        else if (drawNum = 45){
-            $("div1-1").src = spd7;
-        }
-        else if (drawNum = 46){
-            $("div1-1").src = spd8;
-        }
-        else if (drawNum = 47){
-            $("div1-1").src = spd9;
-        }
-        else if (drawNum = 48){
-            $("div1-1").src = spdJ;
-        }
-        else if (drawNum = 49){
-            $("div1-1").src = spdQ;
-        }
-        else if (drawNum = 50){
-            $("div1-1").src = spdK;
-        }
-        else if (drawNum = 51){
-            $("div1-1").src = clb10;
-        }
-        else if (drawNum = 52){
-            $("div1-1").src = spd10;
-        }
-    }
-
+            drawNum[52] = (int)(Math.random()*52)+1;
+            if (drawNum = 1){
+                $("div7-7").src = diA;
+            }
+            else if (drawNum = 2){
+                $("div7-7").src = di2;
+            }
+            else if (drawNum = 3){
+                $("div7-7").src = di3;
+            }
+            else if (drawNum = 4){
+                $("div7-7").src = di4;
+            }
+            else if (drawNum = 5){
+                $("div7-7").src = di5;
+            }
+            else if (drawNum = 6){
+                $("div7-7").src = di6;
+            }
+            else if (drawNum = 7){
+                $("div7-7").src = di7;
+            }
+            else if (drawNum = 8){
+                $("div7-7").src = di8;
+            }
+            else if (drawNum = 9){
+                $("div7-7").src = di9;
+            }
+            else if (drawNum = 10){
+                $("div7-7").src = di10;
+            }
+            else if (drawNum = 11){
+                $("div7-7").src = diJ;
+            }
+            else if (drawNum = 12){
+                $("div7-7").src = diQ;
+            }
+            else if (drawNum = 13){
+                $("div7-7").src = diK;
+            }
+            else if (drawNum = 14){
+                $("div7-7").src = hrtA;
+            }
+            else if (drawNum = 15){
+                $("div7-7").src = hrt2;
+            }
+            else if (drawNum = 16){
+                $("div7-7").src = hrt3;
+            }
+            else if (drawNum = 17){
+                $("div7-7").src = hrt4;
+            }
+            else if (drawNum = 18){
+                $("div7-7").src = hrt5;
+            }
+            else if (drawNum = 19){
+                $("div7-7").src = hrt6;
+            }
+            else if (drawNum = 20){
+                $("div7-7").src = hrt7;
+            }
+            else if (drawNum = 21){
+                $("div7-7").src = hrt8;
+            }
+            else if (drawNum = 22){
+                $("div7-7").src = hrt9;
+            }
+            else if (drawNum = 23){
+                $("div7-7").src = hrt10;
+            }
+            else if (drawNum = 24){
+                $("div7-7").src = hrtJ;
+            }
+            else if (drawNum = 25){
+                $("div7-7").src = hrtQ;
+            }
+            else if (drawNum = 26){
+                $("div7-7").src = hrtK;
+            }
+            else if (drawNum = 27){
+                $("div7-7").src = clbA;
+            }
+            else if (drawNum = 28){
+                $("div7-7").src = clb2;
+            }
+            else if (drawNum = 29){
+                $("div7-7").src = clb3;
+            }
+            else if (drawNum = 30){
+                $("div7-7").src = clb4;
+            }
+            else if (drawNum = 31){
+                $("div7-7").src = clb5;
+            }
+            else if (drawNum = 32){
+                $("div7-7").src = clb6;
+            }
+            else if (drawNum = 33){
+                $("div7-7").src = clb7;
+            }
+            else if (drawNum = 34){
+                $("div7-7").src = clb8;
+            }
+            else if (drawNum = 35){
+                $("div7-7").src = clb9;
+            }
+            else if (drawNum = 36){
+                $("div7-7").src = clbJ;
+            }
+            else if (drawNum = 37){
+                $("div7-7").src = clbQ;
+            }
+            else if (drawNum = 38){
+                $("div7-7").src = clbK;
+            }
+            else if (drawNum = 39){
+                $("div7-7").src = spdA;
+            }
+            else if (drawNum = 40){
+                $("div7-7").src = spd2;
+            }
+            else if (drawNum = 41){
+                $("div7-7").src = spd3;
+            }
+            else if (drawNum = 42){
+                $("div7-7").src = spd4;
+            }
+            else if (drawNum = 43){
+                $("div7-7").src = spd5;
+            }
+            else if (drawNum = 44){
+                $("div7-7").src = spd6;
+            }
+            else if (drawNum = 45){
+                $("div7-7").src = spd7;
+            }
+            else if (drawNum = 46){
+                $("div7-7").src = spd8;
+            }
+            else if (drawNum = 47){
+                $("div7-7").src = spd9;
+            }
+            else if (drawNum = 48){
+                $("div7-7").src = spdJ;
+            }
+            else if (drawNum = 49){
+                $("div7-7").src = spdQ;
+            }
+            else if (drawNum = 50){
+                $("div7-7").src = spdK;
+            }
+            else if (drawNum = 51){
+                $("div7-7").src = clb10;
+            }
+            else if (drawNum = 52){
+                $("div7-7").src = spd10;
+            }}
+//
         while ((drawNum[33] == drawNum[1]) || (drawNum[33] == drawNum[2]) || (drawNum[33] == drawNum[3]) || (drawNum[33] == drawNum[4]) || (drawNum[33] == drawNum[5]) || (drawNum[33]
         == drawNum[6]) || (drawNum[33] == drawNum[7]) || (drawNum[33] == drawNum[8]) || (drawNum[33] == drawNum[9]) || (drawNum[33] == drawNum[10]) || (drawNum[33] == drawNum[11])
         || (drawNum[33] == drawNum[12]) || (drawNum[33] == drawNum[13]) || (drawNum[33] == drawNum[14]) || (drawNum[33] == drawNum[15]) || (drawNum[33] == drawNum[16])
@@ -5379,165 +5372,164 @@ function Play(){
         || (drawNum[33] == drawNum[27]) || (drawNum[33] == drawNum[28]) || (drawNum[33] == drawNum[29]) || (drawNum[33] == drawNum[30])|| (drawNum[33] == drawNum[31])
         || (drawNum[33] == drawNum[32]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div6-10").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div6-10").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div6-10").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div6-10").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div6-10").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div6-10").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div6-10").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div6-10").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div6-10").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div6-10").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div6-10").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div6-10").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div6-10").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div6-10").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div6-10").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div6-10").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div6-10").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div6-10").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div6-10").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div6-10").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div6-10").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div6-10").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div6-10").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div6-10").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div6-10").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div6-10").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div6-10").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div6-10").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div6-10").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div6-10").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div6-10").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div6-10").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div6-10").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div6-10").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div6-10").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div6-10").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div6-10").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div6-10").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div6-10").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div6-10").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div6-10").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div6-10").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div6-10").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div6-10").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div6-10").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div6-10").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div6-10").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div6-10").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div6-10").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div6-10").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div6-10").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div6-10").src = spd10;
+            }}
+//
         while ((drawNum[34] == drawNum[1]) || (drawNum[34] == drawNum[2]) || (drawNum[34] == drawNum[3]) || (drawNum[34] == drawNum[4]) || (drawNum[34] == drawNum[5]) || (drawNum[34]
         == drawNum[6]) || (drawNum[34] == drawNum[7]) || (drawNum[34] == drawNum[8]) || (drawNum[34] == drawNum[9]) || (drawNum[34] == drawNum[10]) || (drawNum[34] == drawNum[11])
         || (drawNum[34] == drawNum[12]) || (drawNum[34] == drawNum[13]) || (drawNum[34] == drawNum[14]) || (drawNum[34] == drawNum[15]) || (drawNum[34] == drawNum[16])
@@ -5546,165 +5538,164 @@ function Play(){
         || (drawNum[34] == drawNum[27]) || (drawNum[34] == drawNum[28]) || (drawNum[34] == drawNum[29]) || (drawNum[34] == drawNum[30])|| (drawNum[34] == drawNum[31])
         || (drawNum[34] == drawNum[32])|| (drawNum[34] == drawNum[33]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div6-9").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div6-9").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div6-9").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div6-9").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div6-9").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div6-9").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div6-9").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div6-9").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div6-9").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div6-9").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div6-9").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div6-9").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div6-9").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div6-9").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div6-9").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div6-9").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div6-9").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div6-9").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div6-9").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div6-9").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div6-9").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div6-9").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div6-9").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div6-9").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div6-9").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div6-9").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div6-9").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div6-9").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div6-9").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div6-9").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div6-9").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div6-9").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div6-9").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div6-9").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div6-9").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div6-9").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div6-9").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div6-9").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div6-9").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div6-9").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div6-9").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div6-9").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div6-9").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div6-9").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div6-9").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div6-9").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div6-9").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div6-9").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div6-9").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div6-9").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div6-9").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div6-9").src = spd10;
+            }}
+//
         while ((drawNum[35] == drawNum[1]) || (drawNum[35] == drawNum[2]) || (drawNum[35] == drawNum[3]) || (drawNum[35] == drawNum[4]) || (drawNum[35] == drawNum[5]) || (drawNum[35]
         == drawNum[6]) || (drawNum[35] == drawNum[7]) || (drawNum[35] == drawNum[8]) || (drawNum[35] == drawNum[9]) || (drawNum[35] == drawNum[10]) || (drawNum[35] == drawNum[11])
         || (drawNum[35] == drawNum[12]) || (drawNum[35] == drawNum[13]) || (drawNum[35] == drawNum[14]) || (drawNum[35] == drawNum[15]) || (drawNum[35] == drawNum[16])
@@ -5713,165 +5704,164 @@ function Play(){
         || (drawNum[35] == drawNum[27]) || (drawNum[35] == drawNum[28]) || (drawNum[35] == drawNum[29]) || (drawNum[35] == drawNum[30])|| (drawNum[35] == drawNum[31])
         || (drawNum[35] == drawNum[32])|| (drawNum[35] == drawNum[33])|| (drawNum[35] == drawNum[34]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div6-8").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div6-8").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div6-8").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div6-8").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div6-8").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div6-8").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div6-8").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div6-8").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div6-8").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div6-8").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div6-8").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div6-8").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div6-8").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div6-8").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div6-8").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div6-8").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div6-8").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div6-8").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div6-8").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div6-8").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div6-8").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div6-8").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div6-8").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div6-8").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div6-8").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div6-8").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div6-8").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div6-8").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div6-8").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div6-8").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div6-8").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div6-8").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div6-8").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div6-8").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div6-8").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div6-8").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div6-8").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div6-8").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div6-8").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div6-8").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div6-8").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div6-8").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div6-8").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div6-8").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div6-8").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div6-8").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div6-8").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div6-8").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div6-8").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div6-8").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div6-8").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div6-8").src = spd10;
+            }}
+//
         while ((drawNum[36] == drawNum[1]) || (drawNum[36] == drawNum[2]) || (drawNum[36] == drawNum[3]) || (drawNum[36] == drawNum[4]) || (drawNum[36] == drawNum[5]) || (drawNum[36]
         == drawNum[6]) || (drawNum[36] == drawNum[7]) || (drawNum[36] == drawNum[8]) || (drawNum[36] == drawNum[9]) || (drawNum[36] == drawNum[10]) || (drawNum[36] == drawNum[11])
         || (drawNum[36] == drawNum[12]) || (drawNum[36] == drawNum[13]) || (drawNum[36] == drawNum[14]) || (drawNum[36] == drawNum[15]) || (drawNum[36] == drawNum[16])
@@ -5880,165 +5870,164 @@ function Play(){
         || (drawNum[36] == drawNum[27]) || (drawNum[36] == drawNum[28]) || (drawNum[36] == drawNum[29]) || (drawNum[36] == drawNum[30])|| (drawNum[36] == drawNum[31])
         || (drawNum[36] == drawNum[32])|| (drawNum[36] == drawNum[33])|| (drawNum[36] == drawNum[34])|| (drawNum[36] == drawNum[35]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div6-7").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div6-7").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div6-7").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div6-7").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div6-7").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div6-7").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div6-7").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div6-7").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div6-7").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div6-7").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div6-7").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div6-7").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div6-7").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div6-7").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div6-7").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div6-7").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div6-7").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div6-7").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div6-7").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div6-7").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div6-7").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div6-7").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div6-7").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div6-7").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div6-7").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div6-7").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div6-7").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div6-7").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div6-7").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div6-7").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div6-7").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div6-7").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div6-7").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div6-7").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div6-7").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div6-7").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div6-7").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div6-7").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div6-7").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div6-7").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div6-7").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div6-7").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div6-7").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div6-7").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div6-7").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div6-7").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div6-7").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div6-7").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div6-7").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div6-7").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div6-7").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div6-7").src = spd10;
+            }}
+//
         while ((drawNum[37] == drawNum[1]) || (drawNum[37] == drawNum[2]) || (drawNum[37] == drawNum[3]) || (drawNum[37] == drawNum[4]) || (drawNum[37] == drawNum[5]) || (drawNum[37]
         == drawNum[6]) || (drawNum[37] == drawNum[7]) || (drawNum[37] == drawNum[8]) || (drawNum[37] == drawNum[9]) || (drawNum[37] == drawNum[10]) || (drawNum[37] == drawNum[11])
         || (drawNum[37] == drawNum[12]) || (drawNum[37] == drawNum[13]) || (drawNum[37] == drawNum[14]) || (drawNum[37] == drawNum[15]) || (drawNum[37] == drawNum[16])
@@ -6047,165 +6036,164 @@ function Play(){
         || (drawNum[37] == drawNum[27]) || (drawNum[37] == drawNum[28]) || (drawNum[37] == drawNum[29]) || (drawNum[37] == drawNum[30])|| (drawNum[37] == drawNum[31])
         || (drawNum[37] == drawNum[32])|| (drawNum[37] == drawNum[33])|| (drawNum[37] == drawNum[34])|| (drawNum[37] == drawNum[35])|| (drawNum[37] == drawNum[36]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div6-6").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div6-6").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div6-6").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div6-6").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div6-6").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div6-6").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div6-6").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div6-6").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div6-6").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div6-6").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div6-6").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div6-6").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div6-6").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div6-6").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div6-6").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div6-6").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div6-6").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div6-6").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div6-6").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div6-6").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div6-6").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div6-6").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div6-6").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div6-6").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div6-6").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div6-6").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div6-6").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div6-6").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div6-6").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div6-6").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div6-6").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div6-6").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div6-6").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div6-6").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div6-6").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div6-6").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div6-6").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div6-6").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div6-6").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div6-6").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div6-6").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div6-6").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div6-6").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div6-6").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div6-6").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div6-6").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div6-6").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div6-6").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div6-6").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div6-6").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div6-6").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div6-6").src = spd10;
+            }}
+//
         while ((drawNum[38] == drawNum[1]) || (drawNum[38] == drawNum[2]) || (drawNum[38] == drawNum[3]) || (drawNum[38] == drawNum[4]) || (drawNum[38] == drawNum[5]) || (drawNum[38]
         == drawNum[6]) || (drawNum[38] == drawNum[7]) || (drawNum[38] == drawNum[8]) || (drawNum[38] == drawNum[9]) || (drawNum[38] == drawNum[10]) || (drawNum[38] == drawNum[11])
         || (drawNum[38] == drawNum[12]) || (drawNum[38] == drawNum[13]) || (drawNum[38] == drawNum[14]) || (drawNum[38] == drawNum[15]) || (drawNum[38] == drawNum[16])
@@ -6215,165 +6203,164 @@ function Play(){
         || (drawNum[38] == drawNum[32])|| (drawNum[38] == drawNum[33])|| (drawNum[38] == drawNum[34])|| (drawNum[38] == drawNum[35])|| (drawNum[38] == drawNum[36])
         || (drawNum[38] == drawNum[37]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div5-9").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div5-9").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div5-9").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div5-9").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div5-9").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div5-9").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div5-9").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div5-9").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div5-9").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div5-9").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div5-9").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div5-9").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div5-9").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div5-9").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div5-9").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div5-9").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div5-9").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div5-9").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div5-9").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div5-9").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div5-9").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div5-9").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div5-9").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div5-9").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div5-9").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div5-9").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div5-9").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div5-9").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div5-9").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div5-9").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div5-9").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div5-9").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div5-9").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div5-9").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div5-9").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div5-9").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div5-9").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div5-9").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div5-9").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div5-9").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div5-9").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div5-9").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div5-9").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div5-9").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div5-9").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div5-9").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div5-9").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div5-9").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div5-9").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div5-9").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div5-9").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div5-9").src = spd10;
+            }}
+//
         while ((drawNum[39] == drawNum[1]) || (drawNum[39] == drawNum[2]) || (drawNum[39] == drawNum[3]) || (drawNum[39] == drawNum[4]) || (drawNum[39] == drawNum[5]) || (drawNum[39]
         == drawNum[6]) || (drawNum[39] == drawNum[7]) || (drawNum[39] == drawNum[8]) || (drawNum[39] == drawNum[9]) || (drawNum[39] == drawNum[10]) || (drawNum[39] == drawNum[11])
         || (drawNum[39] == drawNum[12]) || (drawNum[39] == drawNum[13]) || (drawNum[39] == drawNum[14]) || (drawNum[39] == drawNum[15]) || (drawNum[39] == drawNum[16])
@@ -6383,333 +6370,331 @@ function Play(){
         || (drawNum[39] == drawNum[32])|| (drawNum[39] == drawNum[33])|| (drawNum[39] == drawNum[34])|| (drawNum[39] == drawNum[35])|| (drawNum[39] == drawNum[36])
         || (drawNum[39] == drawNum[37])|| (drawNum[39] == drawNum[38]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div5-8").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div5-8").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div5-8").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div5-8").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div5-8").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div5-8").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div5-8").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div5-8").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div5-8").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div5-8").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div5-8").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div5-8").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div5-8").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div5-8").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div5-8").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div5-8").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div5-8").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div5-8").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div5-8").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div5-8").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div5-8").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div5-8").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div5-8").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div5-8").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div5-8").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div5-8").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div5-8").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div5-8").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div5-8").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div5-8").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div5-8").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div5-8").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div5-8").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div5-8").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div5-8").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div5-8").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div5-8").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div5-8").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div5-8").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div5-8").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div5-8").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div5-8").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div5-8").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div5-8").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div5-8").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div5-8").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div5-8").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div5-8").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div5-8").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div5-8").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div5-8").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div5-8").src = spd10;
+            }}
+//
         while ((drawNum[40] == drawNum[1]) || (drawNum[40] == drawNum[2]) || (drawNum[40] == drawNum[3]) || (drawNum[40] == drawNum[4]) || (drawNum[40] == drawNum[5]) || (drawNum[40]
-    == drawNum[6]) || (drawNum[40] == drawNum[7]) || (drawNum[40] == drawNum[8]) || (drawNum[40] == drawNum[9]) || (drawNum[40] == drawNum[10]) || (drawNum[40] == drawNum[11])
-    || (drawNum[40] == drawNum[12]) || (drawNum[40] == drawNum[13]) || (drawNum[40] == drawNum[14]) || (drawNum[40] == drawNum[15]) || (drawNum[40] == drawNum[16])
-    || (drawNum[40] == drawNum[17]) || (drawNum[40] == drawNum[18]) || (drawNum[40] == drawNum[19]) || (drawNum[40] == drawNum[20]) || (drawNum[40] == drawNum[21])
-    || (drawNum[40] == drawNum[22]) || (drawNum[40] == drawNum[23]) || (drawNum[40] == drawNum[24]) || (drawNum[40] == drawNum[25]) || (drawNum[40] == drawNum[26])
-    || (drawNum[40] == drawNum[27]) || (drawNum[40] == drawNum[28]) || (drawNum[40] == drawNum[29]) || (drawNum[40] == drawNum[30])|| (drawNum[40] == drawNum[31])
-    || (drawNum[40] == drawNum[32])|| (drawNum[40] == drawNum[33])|| (drawNum[40] == drawNum[34])|| (drawNum[40] == drawNum[35])|| (drawNum[40] == drawNum[36])
-    || (drawNum[40] == drawNum[37])|| (drawNum[40] == drawNum[38])|| (drawNum[40] == drawNum[39]))
-    {
-        drawNum[5] = (int)(Math.random()*MAX)+1;
-        if (drawNum = 1){
-            $("div1-1").src = diA;
-        }
-        else if (drawNum = 2){
-            $("div1-1").src = di2;
-        }
-        else if (drawNum = 3){
-            $("div1-1").src = di3;
-        }
-        else if (drawNum = 4){
-            $("div1-1").src = di4;
-        }
-        else if (drawNum = 5){
-            $("div1-1").src = di5;
-        }
-        else if (drawNum = 6){
-            $("div1-1").src = di6;
-        }
-        else if (drawNum = 7){
-            $("div1-1").src = di7;
-        }
-        else if (drawNum = 8){
-            $("div1-1").src = di8;
-        }
-        else if (drawNum = 9){
-            $("div1-1").src = di9;
-        }
-        else if (drawNum = 10){
-            $("div1-1").src = di10;
-        }
-        else if (drawNum = 11){
-            $("div1-1").src = diJ;
-        }
-        else if (drawNum = 12){
-            $("div1-1").src = diQ;
-        }
-        else if (drawNum = 13){
-            $("div1-1").src = diK;
-        }
-        else if (drawNum = 14){
-            $("div1-1").src = hrtA;
-        }
-        else if (drawNum = 15){
-            $("div1-1").src = hrt2;
-        }
-        else if (drawNum = 16){
-            $("div1-1").src = hrt3;
-        }
-        else if (drawNum = 17){
-            $("div1-1").src = hrt4;
-        }
-        else if (drawNum = 18){
-            $("div1-1").src = hrt5;
-        }
-        else if (drawNum = 19){
-            $("div1-1").src = hrt6;
-        }
-        else if (drawNum = 20){
-            $("div1-1").src = hrt7;
-        }
-        else if (drawNum = 21){
-            $("div1-1").src = hrt8;
-        }
-        else if (drawNum = 22){
-            $("div1-1").src = hrt9;
-        }
-        else if (drawNum = 23){
-            $("div1-1").src = hrt10;
-        }
-        else if (drawNum = 24){
-            $("div1-1").src = hrtJ;
-        }
-        else if (drawNum = 25){
-            $("div1-1").src = hrtQ;
-        }
-        else if (drawNum = 26){
-            $("div1-1").src = hrtK;
-        }
-        else if (drawNum = 27){
-            $("div1-1").src = clbA;
-        }
-        else if (drawNum = 28){
-            $("div1-1").src = clb2;
-        }
-        else if (drawNum = 29){
-            $("div1-1").src = clb3;
-        }
-        else if (drawNum = 30){
-            $("div1-1").src = clb4;
-        }
-        else if (drawNum = 31){
-            $("div1-1").src = clb5;
-        }
-        else if (drawNum = 32){
-            $("div1-1").src = clb6;
-        }
-        else if (drawNum = 33){
-            $("div1-1").src = clb7;
-        }
-        else if (drawNum = 34){
-            $("div1-1").src = clb8;
-        }
-        else if (drawNum = 35){
-            $("div1-1").src = clb9;
-        }
-        else if (drawNum = 36){
-            $("div1-1").src = clbJ;
-        }
-        else if (drawNum = 37){
-            $("div1-1").src = clbQ;
-        }
-        else if (drawNum = 38){
-            $("div1-1").src = clbK;
-        }
-        else if (drawNum = 39){
-            $("div1-1").src = spdA;
-        }
-        else if (drawNum = 40){
-            $("div1-1").src = spd2;
-        }
-        else if (drawNum = 41){
-            $("div1-1").src = spd3;
-        }
-        else if (drawNum = 42){
-            $("div1-1").src = spd4;
-        }
-        else if (drawNum = 43){
-            $("div1-1").src = spd5;
-        }
-        else if (drawNum = 44){
-            $("div1-1").src = spd6;
-        }
-        else if (drawNum = 45){
-            $("div1-1").src = spd7;
-        }
-        else if (drawNum = 46){
-            $("div1-1").src = spd8;
-        }
-        else if (drawNum = 47){
-            $("div1-1").src = spd9;
-        }
-        else if (drawNum = 48){
-            $("div1-1").src = spdJ;
-        }
-        else if (drawNum = 49){
-            $("div1-1").src = spdQ;
-        }
-        else if (drawNum = 50){
-            $("div1-1").src = spdK;
-        }
-        else if (drawNum = 51){
-            $("div1-1").src = clb10;
-        }
-        else if (drawNum = 52){
-            $("div1-1").src = spd10;
-        }
-    }
-
+        == drawNum[6]) || (drawNum[40] == drawNum[7]) || (drawNum[40] == drawNum[8]) || (drawNum[40] == drawNum[9]) || (drawNum[40] == drawNum[10]) || (drawNum[40] == drawNum[11])
+        || (drawNum[40] == drawNum[12]) || (drawNum[40] == drawNum[13]) || (drawNum[40] == drawNum[14]) || (drawNum[40] == drawNum[15]) || (drawNum[40] == drawNum[16])
+        || (drawNum[40] == drawNum[17]) || (drawNum[40] == drawNum[18]) || (drawNum[40] == drawNum[19]) || (drawNum[40] == drawNum[20]) || (drawNum[40] == drawNum[21])
+        || (drawNum[40] == drawNum[22]) || (drawNum[40] == drawNum[23]) || (drawNum[40] == drawNum[24]) || (drawNum[40] == drawNum[25]) || (drawNum[40] == drawNum[26])
+        || (drawNum[40] == drawNum[27]) || (drawNum[40] == drawNum[28]) || (drawNum[40] == drawNum[29]) || (drawNum[40] == drawNum[30])|| (drawNum[40] == drawNum[31])
+        || (drawNum[40] == drawNum[32])|| (drawNum[40] == drawNum[33])|| (drawNum[40] == drawNum[34])|| (drawNum[40] == drawNum[35])|| (drawNum[40] == drawNum[36])
+        || (drawNum[40] == drawNum[37])|| (drawNum[40] == drawNum[38])|| (drawNum[40] == drawNum[39]))
+        {
+            drawNum[52] = (int)(Math.random()*52)+1;
+            if (drawNum = 1){
+                $("div5-7").src = diA;
+            }
+            else if (drawNum = 2){
+                $("div5-7").src = di2;
+            }
+            else if (drawNum = 3){
+                $("div5-7").src = di3;
+            }
+            else if (drawNum = 4){
+                $("div5-7").src = di4;
+            }
+            else if (drawNum = 5){
+                $("div5-7").src = di5;
+            }
+            else if (drawNum = 6){
+                $("div5-7").src = di6;
+            }
+            else if (drawNum = 7){
+                $("div5-7").src = di7;
+            }
+            else if (drawNum = 8){
+                $("div5-7").src = di8;
+            }
+            else if (drawNum = 9){
+                $("div5-7").src = di9;
+            }
+            else if (drawNum = 10){
+                $("div5-7").src = di10;
+            }
+            else if (drawNum = 11){
+                $("div5-7").src = diJ;
+            }
+            else if (drawNum = 12){
+                $("div5-7").src = diQ;
+            }
+            else if (drawNum = 13){
+                $("div5-7").src = diK;
+            }
+            else if (drawNum = 14){
+                $("div5-7").src = hrtA;
+            }
+            else if (drawNum = 15){
+                $("div5-7").src = hrt2;
+            }
+            else if (drawNum = 16){
+                $("div5-7").src = hrt3;
+            }
+            else if (drawNum = 17){
+                $("div5-7").src = hrt4;
+            }
+            else if (drawNum = 18){
+                $("div5-7").src = hrt5;
+            }
+            else if (drawNum = 19){
+                $("div5-7").src = hrt6;
+            }
+            else if (drawNum = 20){
+                $("div5-7").src = hrt7;
+            }
+            else if (drawNum = 21){
+                $("div5-7").src = hrt8;
+            }
+            else if (drawNum = 22){
+                $("div5-7").src = hrt9;
+            }
+            else if (drawNum = 23){
+                $("div5-7").src = hrt10;
+            }
+            else if (drawNum = 24){
+                $("div5-7").src = hrtJ;
+            }
+            else if (drawNum = 25){
+                $("div5-7").src = hrtQ;
+            }
+            else if (drawNum = 26){
+                $("div5-7").src = hrtK;
+            }
+            else if (drawNum = 27){
+                $("div5-7").src = clbA;
+            }
+            else if (drawNum = 28){
+                $("div5-7").src = clb2;
+            }
+            else if (drawNum = 29){
+                $("div5-7").src = clb3;
+            }
+            else if (drawNum = 30){
+                $("div5-7").src = clb4;
+            }
+            else if (drawNum = 31){
+                $("div5-7").src = clb5;
+            }
+            else if (drawNum = 32){
+                $("div5-7").src = clb6;
+            }
+            else if (drawNum = 33){
+                $("div5-7").src = clb7;
+            }
+            else if (drawNum = 34){
+                $("div5-7").src = clb8;
+            }
+            else if (drawNum = 35){
+                $("div5-7").src = clb9;
+            }
+            else if (drawNum = 36){
+                $("div5-7").src = clbJ;
+            }
+            else if (drawNum = 37){
+                $("div5-7").src = clbQ;
+            }
+            else if (drawNum = 38){
+                $("div5-7").src = clbK;
+            }
+            else if (drawNum = 39){
+                $("div5-7").src = spdA;
+            }
+            else if (drawNum = 40){
+                $("div5-7").src = spd2;
+            }
+            else if (drawNum = 41){
+                $("div5-7").src = spd3;
+            }
+            else if (drawNum = 42){
+                $("div5-7").src = spd4;
+            }
+            else if (drawNum = 43){
+                $("div5-7").src = spd5;
+            }
+            else if (drawNum = 44){
+                $("div5-7").src = spd6;
+            }
+            else if (drawNum = 45){
+                $("div5-7").src = spd7;
+            }
+            else if (drawNum = 46){
+                $("div5-7").src = spd8;
+            }
+            else if (drawNum = 47){
+                $("div5-7").src = spd9;
+            }
+            else if (drawNum = 48){
+                $("div5-7").src = spdJ;
+            }
+            else if (drawNum = 49){
+                $("div5-7").src = spdQ;
+            }
+            else if (drawNum = 50){
+                $("div5-7").src = spdK;
+            }
+            else if (drawNum = 51){
+                $("div5-7").src = clb10;
+            }
+            else if (drawNum = 52){
+                $("div5-7").src = spd10;
+            }}
+//
         while ((drawNum[41] == drawNum[1]) || (drawNum[41] == drawNum[2]) || (drawNum[41] == drawNum[3]) || (drawNum[41] == drawNum[4]) || (drawNum[41] == drawNum[5]) || (drawNum[41]
         == drawNum[6]) || (drawNum[41] == drawNum[7]) || (drawNum[41] == drawNum[8]) || (drawNum[41] == drawNum[9]) || (drawNum[41] == drawNum[10]) || (drawNum[41] == drawNum[11])
         || (drawNum[41] == drawNum[12]) || (drawNum[41] == drawNum[13]) || (drawNum[41] == drawNum[14]) || (drawNum[41] == drawNum[15]) || (drawNum[41] == drawNum[16])
@@ -6719,165 +6704,164 @@ function Play(){
         || (drawNum[41] == drawNum[32])|| (drawNum[41] == drawNum[33])|| (drawNum[41] == drawNum[34])|| (drawNum[41] == drawNum[35])|| (drawNum[41] == drawNum[36])
         || (drawNum[41] == drawNum[37])|| (drawNum[41] == drawNum[38])|| (drawNum[41] == drawNum[39])|| (drawNum[41] == drawNum[40]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div5-6").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div5-6").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div5-6").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div5-6").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div5-6").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div5-6").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div5-6").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div5-6").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div5-6").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div5-6").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div5-6").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div5-6").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div5-6").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div5-6").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div5-6").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div5-6").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div5-6").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div5-6").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div5-6").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div5-6").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div5-6").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div5-6").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div5-6").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div5-6").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div5-6").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div5-6").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div5-6").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div5-6").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div5-6").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div5-6").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div5-6").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div5-6").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div5-6").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div5-6").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div5-6").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div5-6").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div5-6").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div5-6").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div5-6").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div5-6").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div5-6").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div5-6").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div5-6").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div5-6").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div5-6").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div5-6").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div5-6").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div5-6").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div5-6").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div5-6").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div5-6").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div5-6").src = spd10;
+            }}
+//
         while ((drawNum[42] == drawNum[1]) || (drawNum[42] == drawNum[2]) || (drawNum[42] == drawNum[3]) || (drawNum[42] == drawNum[4]) || (drawNum[42] == drawNum[5]) || (drawNum[42]
         == drawNum[6]) || (drawNum[42] == drawNum[7]) || (drawNum[42] == drawNum[8]) || (drawNum[42] == drawNum[9]) || (drawNum[42] == drawNum[10]) || (drawNum[42] == drawNum[11])
         || (drawNum[42] == drawNum[12]) || (drawNum[42] == drawNum[13]) || (drawNum[42] == drawNum[14]) || (drawNum[42] == drawNum[15]) || (drawNum[42] == drawNum[16])
@@ -6887,165 +6871,164 @@ function Play(){
         || (drawNum[42] == drawNum[32])|| (drawNum[42] == drawNum[33])|| (drawNum[42] == drawNum[34])|| (drawNum[42] == drawNum[35])|| (drawNum[42] == drawNum[36])
         || (drawNum[42] == drawNum[37])|| (drawNum[42] == drawNum[38])|| (drawNum[42] == drawNum[39])|| (drawNum[42] == drawNum[40])|| (drawNum[42] == drawNum[41]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div5-5").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div5-5").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div5-5").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div5-5").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div5-5").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div5-5").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div5-5").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div5-5").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div5-5").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div5-5").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div5-5").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div5-5").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div5-5").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div5-5").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div5-5").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div5-5").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div5-5").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div5-5").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div5-5").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div5-5").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div5-5").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div5-5").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div5-5").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div5-5").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div5-5").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div5-5").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div5-5").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div5-5").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div5-5").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div5-5").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div5-5").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div5-5").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div5-5").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div5-5").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div5-5").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div5-5").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div5-5").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div5-5").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div5-5").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div5-5").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div5-5").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div5-5").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div5-5").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div5-5").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div5-5").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div5-5").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div5-5").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div5-5").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div5-5").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div5-5").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div5-5").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div5-5").src = spd10;
+            }}
+//
         while ((drawNum[43] == drawNum[1]) || (drawNum[43] == drawNum[2]) || (drawNum[43] == drawNum[3]) || (drawNum[43] == drawNum[4]) || (drawNum[43] == drawNum[5]) || (drawNum[43]
         == drawNum[6]) || (drawNum[43] == drawNum[7]) || (drawNum[43] == drawNum[8]) || (drawNum[43] == drawNum[9]) || (drawNum[43] == drawNum[10]) || (drawNum[43] == drawNum[11])
         || (drawNum[43] == drawNum[12]) || (drawNum[43] == drawNum[13]) || (drawNum[43] == drawNum[14]) || (drawNum[43] == drawNum[15]) || (drawNum[43] == drawNum[16])
@@ -7056,165 +7039,164 @@ function Play(){
         || (drawNum[43] == drawNum[37])|| (drawNum[43] == drawNum[38])|| (drawNum[43] == drawNum[39])|| (drawNum[43] == drawNum[40])|| (drawNum[43] == drawNum[41])
         || (drawNum[43] == drawNum[42]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div4-7").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div4-7").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div4-7").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div4-7").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div4-7").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div4-7").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div4-7").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div4-7").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div4-7").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div4-7").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div4-7").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div4-7").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div4-7").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div4-7").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div4-7").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div4-7").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div4-7").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div4-7").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div4-7").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div4-7").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div4-7").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div4-7").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div4-7").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div4-7").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div4-7").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div4-7").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div4-7").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div4-7").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div4-7").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div4-7").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div4-7").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div4-7").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div4-7").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div4-7").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div4-7").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div4-7").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div4-7").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div4-7").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div4-7").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div4-7").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div4-7").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div4-7").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div4-7").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div4-7").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div4-7").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div4-7").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div4-7").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div4-7").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div4-7").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div4-7").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div4-7").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div4-7").src = spd10;
+            }}
+//
         while ((drawNum[44] == drawNum[1]) || (drawNum[44] == drawNum[2]) || (drawNum[44] == drawNum[3]) || (drawNum[44] == drawNum[4]) || (drawNum[44] == drawNum[5]) || (drawNum[44]
         == drawNum[6]) || (drawNum[44] == drawNum[7]) || (drawNum[44] == drawNum[8]) || (drawNum[44] == drawNum[9]) || (drawNum[44] == drawNum[10]) || (drawNum[44] == drawNum[11])
         || (drawNum[44] == drawNum[12]) || (drawNum[44] == drawNum[13]) || (drawNum[44] == drawNum[14]) || (drawNum[44] == drawNum[15]) || (drawNum[44] == drawNum[16])
@@ -7225,165 +7207,164 @@ function Play(){
         || (drawNum[44] == drawNum[37])|| (drawNum[44] == drawNum[38])|| (drawNum[44] == drawNum[39])|| (drawNum[44] == drawNum[40])|| (drawNum[44] == drawNum[41])
         || (drawNum[44] == drawNum[42])|| (drawNum[44] == drawNum[43]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div4-6").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div4-6").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div4-6").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div4-6").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div4-6").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div4-6").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div4-6").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div4-6").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div4-6").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div4-6").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div4-6").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div4-6").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div4-6").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div4-6").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div4-6").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div4-6").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div4-6").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div4-6").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div4-6").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div4-6").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div4-6").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div4-6").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div4-6").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div4-6").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div4-6").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div4-6").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div4-6").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div4-6").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div4-6").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div4-6").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div4-6").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div4-6").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div4-6").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div4-6").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div4-6").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div4-6").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div4-6").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div4-6").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div4-6").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div4-6").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div4-6").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div4-6").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div4-6").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div4-6").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div4-6").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div4-6").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div4-6").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div4-6").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div4-6").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div4-6").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div4-6").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div4-6").src = spd10;
+            }}
+//
         while ((drawNum[45] == drawNum[1]) || (drawNum[45] == drawNum[2]) || (drawNum[45] == drawNum[3]) || (drawNum[45] == drawNum[4]) || (drawNum[45] == drawNum[5]) || (drawNum[45]
         == drawNum[6]) || (drawNum[45] == drawNum[7]) || (drawNum[45] == drawNum[8]) || (drawNum[45] == drawNum[9]) || (drawNum[45] == drawNum[10]) || (drawNum[45] == drawNum[11])
         || (drawNum[45] == drawNum[12]) || (drawNum[45] == drawNum[13]) || (drawNum[45] == drawNum[14]) || (drawNum[45] == drawNum[15]) || (drawNum[45] == drawNum[16])
@@ -7394,165 +7375,164 @@ function Play(){
         || (drawNum[45] == drawNum[37])|| (drawNum[45] == drawNum[38])|| (drawNum[45] == drawNum[39])|| (drawNum[45] == drawNum[40])|| (drawNum[45] == drawNum[41])
         || (drawNum[45] == drawNum[42])|| (drawNum[45] == drawNum[43])|| (drawNum[45] == drawNum[44]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div4-5").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div4-5").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div4-5").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div4-5").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div4-5").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div4-5").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div4-5").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div4-5").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div4-5").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div4-5").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div4-5").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div4-5").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div4-5").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div4-5").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div4-5").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div4-5").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div4-5").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div4-5").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div4-5").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div4-5").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div4-5").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div4-5").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div4-5").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div4-5").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div4-5").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div4-5").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div4-5").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div4-5").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div4-5").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div4-5").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div4-5").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div4-5").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div4-5").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div4-5").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div4-5").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div4-5").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div4-5").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div4-5").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div4-5").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div4-5").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div4-5").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div4-5").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div4-5").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div4-5").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div4-5").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div4-5").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div4-5").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div4-5").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div4-5").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div4-5").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div4-5").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div4-5").src = spd10;
+            }}
+//
         while ((drawNum[46] == drawNum[1]) || (drawNum[46] == drawNum[2]) || (drawNum[46] == drawNum[3]) || (drawNum[46] == drawNum[4]) || (drawNum[46] == drawNum[5]) || (drawNum[46]
         == drawNum[6]) || (drawNum[46] == drawNum[7]) || (drawNum[46] == drawNum[8]) || (drawNum[46] == drawNum[9]) || (drawNum[46] == drawNum[10]) || (drawNum[46] == drawNum[11])
         || (drawNum[46] == drawNum[12]) || (drawNum[46] == drawNum[13]) || (drawNum[46] == drawNum[14]) || (drawNum[46] == drawNum[15]) || (drawNum[46] == drawNum[16])
@@ -7563,165 +7543,164 @@ function Play(){
         || (drawNum[46] == drawNum[37])|| (drawNum[46] == drawNum[38])|| (drawNum[46] == drawNum[39])|| (drawNum[46] == drawNum[40])|| (drawNum[46] == drawNum[41])
         || (drawNum[46] == drawNum[42])|| (drawNum[46] == drawNum[43])|| (drawNum[46] == drawNum[44])|| (drawNum[46] == drawNum[45]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div4-4").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div4-4").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div4-4").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div4-4").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div4-4").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div4-4").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div4-4").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div4-4").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div4-4").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div4-4").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div4-4").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div4-4").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div4-4").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div4-4").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div4-4").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div4-4").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div4-4").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div4-4").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div4-4").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div4-4").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div4-4").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div4-4").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div4-4").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div4-4").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div4-4").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div4-4").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div4-4").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div4-4").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div4-4").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div4-4").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div4-4").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div4-4").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div4-4").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div4-4").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div4-4").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div4-4").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div4-4").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div4-4").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div4-4").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div4-4").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div4-4").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div4-4").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div4-4").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div4-4").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div4-4").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div4-4").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div4-4").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div4-4").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div4-4").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div4-4").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div4-4").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div4-4").src = spd10;
+            }}
+//
         while ((drawNum[47] == drawNum[1]) || (drawNum[47] == drawNum[2]) || (drawNum[47] == drawNum[3]) || (drawNum[47] == drawNum[4]) || (drawNum[47] == drawNum[5]) || (drawNum[47]
         == drawNum[6]) || (drawNum[47] == drawNum[7]) || (drawNum[47] == drawNum[8]) || (drawNum[47] == drawNum[9]) || (drawNum[47] == drawNum[10]) || (drawNum[47] == drawNum[11])
         || (drawNum[47] == drawNum[12]) || (drawNum[47] == drawNum[13]) || (drawNum[47] == drawNum[14]) || (drawNum[47] == drawNum[15]) || (drawNum[47] == drawNum[16])
@@ -7732,165 +7711,164 @@ function Play(){
         || (drawNum[47] == drawNum[37])|| (drawNum[47] == drawNum[38])|| (drawNum[47] == drawNum[39])|| (drawNum[47] == drawNum[40])|| (drawNum[47] == drawNum[41])
         || (drawNum[47] == drawNum[42])|| (drawNum[47] == drawNum[43])|| (drawNum[47] == drawNum[44])|| (drawNum[47] == drawNum[45])|| (drawNum[47] == drawNum[46]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div3-5").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div3-5").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div3-5").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div3-5").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div3-5").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div3-5").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div3-5").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div3-5").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div3-5").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div3-5").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div3-5").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div3-5").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div3-5").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div3-5").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div3-5").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div3-5").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div3-5").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div3-5").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div3-5").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div3-5").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div3-5").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div3-5").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div3-5").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div3-5").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div3-5").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div3-5").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div3-5").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div3-5").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div3-5").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div3-5").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div3-5").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div3-5").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div3-5").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div3-5").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div3-5").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div3-5").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div3-5").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div3-5").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div3-5").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div3-5").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div3-5").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div3-5").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div3-5").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div3-5").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div3-5").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div3-5").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div3-5").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div3-5").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div3-5").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div3-5").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div3-5").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div3-5").src = spd10;
+            }}
+//
         while ((drawNum[48] == drawNum[1]) || (drawNum[48] == drawNum[2]) || (drawNum[48] == drawNum[3]) || (drawNum[48] == drawNum[4]) || (drawNum[48] == drawNum[5]) || (drawNum[48]
         == drawNum[6]) || (drawNum[48] == drawNum[7]) || (drawNum[48] == drawNum[8]) || (drawNum[48] == drawNum[9]) || (drawNum[48] == drawNum[10]) || (drawNum[48] == drawNum[11])
         || (drawNum[48] == drawNum[12]) || (drawNum[48] == drawNum[13]) || (drawNum[48] == drawNum[14]) || (drawNum[48] == drawNum[15]) || (drawNum[48] == drawNum[16])
@@ -7902,165 +7880,164 @@ function Play(){
         || (drawNum[48] == drawNum[42])|| (drawNum[48] == drawNum[43])|| (drawNum[48] == drawNum[44])|| (drawNum[48] == drawNum[45])|| (drawNum[48] == drawNum[46])
         || (drawNum[48] == drawNum[47]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div3-4").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div3-4").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div3-4").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div3-4").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div3-4").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div3-4").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div3-4").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div3-4").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div3-4").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div3-4").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div3-4").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div3-4").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div3-4").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div3-4").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div3-4").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div3-4").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div3-4").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div3-4").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div3-4").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div3-4").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div3-4").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div3-4").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div3-4").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div3-4").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div3-4").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div3-4").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div3-4").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div3-4").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div3-4").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div3-4").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div3-4").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div3-4").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div3-4").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div3-4").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div3-4").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div3-4").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div3-4").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div3-4").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div3-4").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div3-4").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div3-4").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div3-4").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div3-4").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div3-4").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div3-4").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div3-4").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div3-4").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div3-4").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div3-4").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div3-4").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div3-4").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div3-4").src = spd10;
+            }}
+//
         while ((drawNum[49] == drawNum[1]) || (drawNum[49] == drawNum[2]) || (drawNum[49] == drawNum[3]) || (drawNum[49] == drawNum[4]) || (drawNum[49] == drawNum[5]) || (drawNum[49]
         == drawNum[6]) || (drawNum[49] == drawNum[7]) || (drawNum[49] == drawNum[8]) || (drawNum[49] == drawNum[9]) || (drawNum[49] == drawNum[10]) || (drawNum[49] == drawNum[11])
         || (drawNum[49] == drawNum[12]) || (drawNum[49] == drawNum[13]) || (drawNum[49] == drawNum[14]) || (drawNum[49] == drawNum[15]) || (drawNum[49] == drawNum[16])
@@ -8072,165 +8049,164 @@ function Play(){
         || (drawNum[49] == drawNum[42])|| (drawNum[49] == drawNum[43])|| (drawNum[49] == drawNum[44])|| (drawNum[49] == drawNum[45])|| (drawNum[49] == drawNum[46])
         || (drawNum[49] == drawNum[47])|| (drawNum[49] == drawNum[48]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div3-3").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div3-3").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div3-3").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div3-3").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div3-3").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div3-3").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div3-3").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div3-3").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div3-3").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div3-3").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div3-3").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div3-3").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div3-3").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div3-3").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div3-3").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div3-3").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div3-3").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div3-3").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div3-3").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div3-3").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div3-3").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div3-3").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div3-3").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div3-3").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div3-3").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div3-3").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div3-3").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div3-3").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div3-3").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div3-3").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div3-3").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div3-3").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div3-3").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div3-3").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div3-3").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div3-3").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div3-3").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div3-3").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div3-3").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div3-3").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div3-3").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div3-3").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div3-3").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div3-3").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div3-3").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div3-3").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div3-3").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div3-3").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div3-3").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div3-3").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div3-3").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
+                $("div3-3").src = spd10;
+            }}
+//
         while ((drawNum[50] == drawNum[1]) || (drawNum[50] == drawNum[2]) || (drawNum[50] == drawNum[3]) || (drawNum[50] == drawNum[4]) || (drawNum[50] == drawNum[5]) || (drawNum[50]
         == drawNum[6]) || (drawNum[50] == drawNum[7]) || (drawNum[50] == drawNum[8]) || (drawNum[50] == drawNum[9]) || (drawNum[50] == drawNum[10]) || (drawNum[50] == drawNum[11])
         || (drawNum[50] == drawNum[12]) || (drawNum[50] == drawNum[13]) || (drawNum[50] == drawNum[14]) || (drawNum[50] == drawNum[15]) || (drawNum[50] == drawNum[16])
@@ -8242,334 +8218,334 @@ function Play(){
         || (drawNum[50] == drawNum[42])|| (drawNum[50] == drawNum[43])|| (drawNum[50] == drawNum[44])|| (drawNum[50] == drawNum[45])|| (drawNum[50] == drawNum[46])
         || (drawNum[50] == drawNum[47])|| (drawNum[50] == drawNum[48])|| (drawNum[50] == drawNum[49]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
-                $("div1-1").src = diA;
+                $("div2-3").src = diA;
             }
             else if (drawNum = 2){
-                $("div1-1").src = di2;
+                $("div2-3").src = di2;
             }
             else if (drawNum = 3){
-                $("div1-1").src = di3;
+                $("div2-3").src = di3;
             }
             else if (drawNum = 4){
-                $("div1-1").src = di4;
+                $("div2-3").src = di4;
             }
             else if (drawNum = 5){
-                $("div1-1").src = di5;
+                $("div2-3").src = di5;
             }
             else if (drawNum = 6){
-                $("div1-1").src = di6;
+                $("div2-3").src = di6;
             }
             else if (drawNum = 7){
-                $("div1-1").src = di7;
+                $("div2-3").src = di7;
             }
             else if (drawNum = 8){
-                $("div1-1").src = di8;
+                $("div2-3").src = di8;
             }
             else if (drawNum = 9){
-                $("div1-1").src = di9;
+                $("div2-3").src = di9;
             }
             else if (drawNum = 10){
-                $("div1-1").src = di10;
+                $("div2-3").src = di10;
             }
             else if (drawNum = 11){
-                $("div1-1").src = diJ;
+                $("div2-3").src = diJ;
             }
             else if (drawNum = 12){
-                $("div1-1").src = diQ;
+                $("div2-3").src = diQ;
             }
             else if (drawNum = 13){
-                $("div1-1").src = diK;
+                $("div2-3").src = diK;
             }
             else if (drawNum = 14){
-                $("div1-1").src = hrtA;
+                $("div2-3").src = hrtA;
             }
             else if (drawNum = 15){
-                $("div1-1").src = hrt2;
+                $("div2-3").src = hrt2;
             }
             else if (drawNum = 16){
-                $("div1-1").src = hrt3;
+                $("div2-3").src = hrt3;
             }
             else if (drawNum = 17){
-                $("div1-1").src = hrt4;
+                $("div2-3").src = hrt4;
             }
             else if (drawNum = 18){
-                $("div1-1").src = hrt5;
+                $("div2-3").src = hrt5;
             }
             else if (drawNum = 19){
-                $("div1-1").src = hrt6;
+                $("div2-3").src = hrt6;
             }
             else if (drawNum = 20){
-                $("div1-1").src = hrt7;
+                $("div2-3").src = hrt7;
             }
             else if (drawNum = 21){
-                $("div1-1").src = hrt8;
+                $("div2-3").src = hrt8;
             }
             else if (drawNum = 22){
-                $("div1-1").src = hrt9;
+                $("div2-3").src = hrt9;
             }
             else if (drawNum = 23){
-                $("div1-1").src = hrt10;
+                $("div2-3").src = hrt10;
             }
             else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
+                $("div2-3").src = hrtJ;
             }
             else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
+                $("div2-3").src = hrtQ;
             }
             else if (drawNum = 26){
-                $("div1-1").src = hrtK;
+                $("div2-3").src = hrtK;
             }
             else if (drawNum = 27){
-                $("div1-1").src = clbA;
+                $("div2-3").src = clbA;
             }
             else if (drawNum = 28){
-                $("div1-1").src = clb2;
+                $("div2-3").src = clb2;
             }
             else if (drawNum = 29){
-                $("div1-1").src = clb3;
+                $("div2-3").src = clb3;
             }
             else if (drawNum = 30){
-                $("div1-1").src = clb4;
+                $("div2-3").src = clb4;
             }
             else if (drawNum = 31){
-                $("div1-1").src = clb5;
+                $("div2-3").src = clb5;
             }
             else if (drawNum = 32){
-                $("div1-1").src = clb6;
+                $("div2-3").src = clb6;
             }
             else if (drawNum = 33){
-                $("div1-1").src = clb7;
+                $("div2-3").src = clb7;
             }
             else if (drawNum = 34){
-                $("div1-1").src = clb8;
+                $("div2-3").src = clb8;
             }
             else if (drawNum = 35){
-                $("div1-1").src = clb9;
+                $("div2-3").src = clb9;
             }
             else if (drawNum = 36){
-                $("div1-1").src = clbJ;
+                $("div2-3").src = clbJ;
             }
             else if (drawNum = 37){
-                $("div1-1").src = clbQ;
+                $("div2-3").src = clbQ;
             }
             else if (drawNum = 38){
-                $("div1-1").src = clbK;
+                $("div2-3").src = clbK;
             }
             else if (drawNum = 39){
-                $("div1-1").src = spdA;
+                $("div2-3").src = spdA;
             }
             else if (drawNum = 40){
-                $("div1-1").src = spd2;
+                $("div2-3").src = spd2;
             }
             else if (drawNum = 41){
-                $("div1-1").src = spd3;
+                $("div2-3").src = spd3;
             }
             else if (drawNum = 42){
-                $("div1-1").src = spd4;
+                $("div2-3").src = spd4;
             }
             else if (drawNum = 43){
-                $("div1-1").src = spd5;
+                $("div2-3").src = spd5;
             }
             else if (drawNum = 44){
-                $("div1-1").src = spd6;
+                $("div2-3").src = spd6;
             }
             else if (drawNum = 45){
-                $("div1-1").src = spd7;
+                $("div2-3").src = spd7;
             }
             else if (drawNum = 46){
-                $("div1-1").src = spd8;
+                $("div2-3").src = spd8;
             }
             else if (drawNum = 47){
-                $("div1-1").src = spd9;
+                $("div2-3").src = spd9;
             }
             else if (drawNum = 48){
-                $("div1-1").src = spdJ;
+                $("div2-3").src = spdJ;
             }
             else if (drawNum = 49){
-                $("div1-1").src = spdQ;
+                $("div2-3").src = spdQ;
             }
             else if (drawNum = 50){
-                $("div1-1").src = spdK;
+                $("div2-3").src = spdK;
             }
             else if (drawNum = 51){
-                $("div1-1").src = clb10;
+                $("div2-3").src = clb10;
             }
             else if (drawNum = 52){
-                $("div1-1").src = spd10;
+                $("div2-3").src = spd10;
+            }}
+//
+        while ((drawNum[51] == drawNum[1]) || (drawNum[51] == drawNum[2]) || (drawNum[51] == drawNum[3]) || (drawNum[51] == drawNum[4]) || (drawNum[51] == drawNum[5]) || (drawNum[51]
+        == drawNum[6]) || (drawNum[52] == drawNum[7]) || (drawNum[52] == drawNum[8]) || (drawNum[52] == drawNum[9]) || (drawNum[51] == drawNum[10]) || (drawNum[51] == drawNum[11])
+        || (drawNum[51] == drawNum[12]) || (drawNum[51] == drawNum[13]) || (drawNum[51] == drawNum[14]) || (drawNum[51] == drawNum[15]) || (drawNum[51] == drawNum[16])
+        || (drawNum[51] == drawNum[17]) || (drawNum[51] == drawNum[18]) || (drawNum[51] == drawNum[19]) || (drawNum[51] == drawNum[20]) || (drawNum[51] == drawNum[21])
+        || (drawNum[51] == drawNum[22]) || (drawNum[51] == drawNum[23]) || (drawNum[51] == drawNum[24]) || (drawNum[51] == drawNum[25]) || (drawNum[51] == drawNum[26])
+        || (drawNum[51] == drawNum[27]) || (drawNum[51] == drawNum[28]) || (drawNum[51] == drawNum[29]) || (drawNum[51] == drawNum[30])|| (drawNum[51] == drawNum[31])
+        || (drawNum[51] == drawNum[32])|| (drawNum[51] == drawNum[33])|| (drawNum[51] == drawNum[34])|| (drawNum[51] == drawNum[35])|| (drawNum[51] == drawNum[36])
+        || (drawNum[51] == drawNum[37])|| (drawNum[51] == drawNum[38])|| (drawNum[51] == drawNum[39])|| (drawNum[51] == drawNum[40])|| (drawNum[51] == drawNum[41])
+        || (drawNum[51] == drawNum[42])|| (drawNum[51] == drawNum[43])|| (drawNum[51] == drawNum[44])|| (drawNum[51] == drawNum[45])|| (drawNum[51] == drawNum[46])
+        || (drawNum[51] == drawNum[47])|| (drawNum[51] == drawNum[48])|| (drawNum[51] == drawNum[49]) || (drawNum[51] == drawNum[50])) {
+            drawNum[52] = (int)(Math.random() * 52) + 1;
+            if (drawNum = 1) {
+                $("div2-2").src = diA;
+            }
+            else if (drawNum = 2) {
+                $("div2-2").src = di2;
+            }
+            else if (drawNum = 3) {
+                $("div2-2").src = di3;
+            }
+            else if (drawNum = 4) {
+                $("div2-2").src = di4;
+            }
+            else if (drawNum = 5) {
+                $("div2-2").src = di5;
+            }
+            else if (drawNum = 6) {
+                $("div2-2").src = di6;
+            }
+            else if (drawNum = 7) {
+                $("div2-2").src = di7;
+            }
+            else if (drawNum = 8) {
+                $("div2-2").src = di8;
+            }
+            else if (drawNum = 9) {
+                $("div2-2").src = di9;
+            }
+            else if (drawNum = 10) {
+                $("div2-2").src = di10;
+            }
+            else if (drawNum = 11) {
+                $("div2-2").src = diJ;
+            }
+            else if (drawNum = 12) {
+                $("div2-2").src = diQ;
+            }
+            else if (drawNum = 13) {
+                $("div2-2").src = diK;
+            }
+            else if (drawNum = 14) {
+                $("div2-2").src = hrtA;
+            }
+            else if (drawNum = 15) {
+                $("div2-2").src = hrt2;
+            }
+            else if (drawNum = 16) {
+                $("div2-2").src = hrt3;
+            }
+            else if (drawNum = 17) {
+                $("div2-2").src = hrt4;
+            }
+            else if (drawNum = 18) {
+                $("div2-2").src = hrt5;
+            }
+            else if (drawNum = 19) {
+                $("div2-2").src = hrt6;
+            }
+            else if (drawNum = 20) {
+                $("div2-2").src = hrt7;
+            }
+            else if (drawNum = 21) {
+                $("div2-2").src = hrt8;
+            }
+            else if (drawNum = 22) {
+                $("div2-2").src = hrt9;
+            }
+            else if (drawNum = 23) {
+                $("div2-2").src = hrt10;
+            }
+            else if (drawNum = 24) {
+                $("div2-2").src = hrtJ;
+            }
+            else if (drawNum = 25) {
+                $("div2-2").src = hrtQ;
+            }
+            else if (drawNum = 26) {
+                $("div2-2").src = hrtK;
+            }
+            else if (drawNum = 27) {
+                $("div2-2").src = clbA;
+            }
+            else if (drawNum = 28) {
+                $("div2-2").src = clb2;
+            }
+            else if (drawNum = 29) {
+                $("div2-2").src = clb3;
+            }
+            else if (drawNum = 30) {
+                $("div2-2").src = clb4;
+            }
+            else if (drawNum = 31) {
+                $("div2-2").src = clb5;
+            }
+            else if (drawNum = 32) {
+                $("div2-2").src = clb6;
+            }
+            else if (drawNum = 33) {
+                $("div2-2").src = clb7;
+            }
+            else if (drawNum = 34) {
+                $("div2-2").src = clb8;
+            }
+            else if (drawNum = 35) {
+                $("div2-2").src = clb9;
+            }
+            else if (drawNum = 36) {
+                $("div2-2").src = clbJ;
+            }
+            else if (drawNum = 37) {
+                $("div2-2").src = clbQ;
+            }
+            else if (drawNum = 38) {
+                $("div2-2").src = clbK;
+            }
+            else if (drawNum = 39) {
+                $("div2-2").src = spdA;
+            }
+            else if (drawNum = 40) {
+                $("div2-2").src = spd2;
+            }
+            else if (drawNum = 41) {
+                $("div2-2").src = spd3;
+            }
+            else if (drawNum = 42) {
+                $("div2-2").src = spd4;
+            }
+            else if (drawNum = 43) {
+                $("div2-2").src = spd5;
+            }
+            else if (drawNum = 44) {
+                $("div2-2").src = spd6;
+            }
+            else if (drawNum = 45) {
+                $("div2-2").src = spd7;
+            }
+            else if (drawNum = 46) {
+                $("div2-2").src = spd8;
+            }
+            else if (drawNum = 47) {
+                $("div2-2").src = spd9;
+            }
+            else if (drawNum = 48) {
+                $("div2-2").src = spdJ;
+            }
+            else if (drawNum = 49) {
+                $("div2-2").src = spdQ;
+            }
+            else if (drawNum = 50) {
+                $("div2-2").src = spdK;
+            }
+            else if (drawNum = 51) {
+                $("div2-2").src = clb10;
+            }
+            else if (drawNum = 52) {
+                $("div2-2").src = spd10;
             }
         }
-
-        while ((drawNum[40] == drawNum[1]) || (drawNum[40] == drawNum[2]) || (drawNum[40] == drawNum[3]) || (drawNum[40] == drawNum[4]) || (drawNum[40] == drawNum[5]) || (drawNum[40]
-        == drawNum[6]) || (drawNum[40] == drawNum[7]) || (drawNum[40] == drawNum[8]) || (drawNum[40] == drawNum[9]) || (drawNum[40] == drawNum[10]) || (drawNum[40] == drawNum[11])
-        || (drawNum[40] == drawNum[12]) || (drawNum[40] == drawNum[13]) || (drawNum[40] == drawNum[14]) || (drawNum[40] == drawNum[15]) || (drawNum[40] == drawNum[16])
-        || (drawNum[40] == drawNum[17]) || (drawNum[40] == drawNum[18]) || (drawNum[40] == drawNum[19]) || (drawNum[40] == drawNum[20]) || (drawNum[40] == drawNum[21])
-        || (drawNum[40] == drawNum[22]) || (drawNum[40] == drawNum[23]) || (drawNum[40] == drawNum[24]) || (drawNum[40] == drawNum[25]) || (drawNum[40] == drawNum[26])
-        || (drawNum[40] == drawNum[27]) || (drawNum[40] == drawNum[28]) || (drawNum[40] == drawNum[29]) || (drawNum[40] == drawNum[30])|| (drawNum[40] == drawNum[31])
-        || (drawNum[40] == drawNum[32])|| (drawNum[40] == drawNum[33])|| (drawNum[40] == drawNum[34])|| (drawNum[40] == drawNum[35])|| (drawNum[40] == drawNum[36])
-        || (drawNum[40] == drawNum[37])|| (drawNum[40] == drawNum[38])|| (drawNum[40] == drawNum[39]))
-        {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
-            if (drawNum = 1){
-                $("div1-1").src = diA;
-            }
-            else if (drawNum = 2){
-                $("div1-1").src = di2;
-            }
-            else if (drawNum = 3){
-                $("div1-1").src = di3;
-            }
-            else if (drawNum = 4){
-                $("div1-1").src = di4;
-            }
-            else if (drawNum = 5){
-                $("div1-1").src = di5;
-            }
-            else if (drawNum = 6){
-                $("div1-1").src = di6;
-            }
-            else if (drawNum = 7){
-                $("div1-1").src = di7;
-            }
-            else if (drawNum = 8){
-                $("div1-1").src = di8;
-            }
-            else if (drawNum = 9){
-                $("div1-1").src = di9;
-            }
-            else if (drawNum = 10){
-                $("div1-1").src = di10;
-            }
-            else if (drawNum = 11){
-                $("div1-1").src = diJ;
-            }
-            else if (drawNum = 12){
-                $("div1-1").src = diQ;
-            }
-            else if (drawNum = 13){
-                $("div1-1").src = diK;
-            }
-            else if (drawNum = 14){
-                $("div1-1").src = hrtA;
-            }
-            else if (drawNum = 15){
-                $("div1-1").src = hrt2;
-            }
-            else if (drawNum = 16){
-                $("div1-1").src = hrt3;
-            }
-            else if (drawNum = 17){
-                $("div1-1").src = hrt4;
-            }
-            else if (drawNum = 18){
-                $("div1-1").src = hrt5;
-            }
-            else if (drawNum = 19){
-                $("div1-1").src = hrt6;
-            }
-            else if (drawNum = 20){
-                $("div1-1").src = hrt7;
-            }
-            else if (drawNum = 21){
-                $("div1-1").src = hrt8;
-            }
-            else if (drawNum = 22){
-                $("div1-1").src = hrt9;
-            }
-            else if (drawNum = 23){
-                $("div1-1").src = hrt10;
-            }
-            else if (drawNum = 24){
-                $("div1-1").src = hrtJ;
-            }
-            else if (drawNum = 25){
-                $("div1-1").src = hrtQ;
-            }
-            else if (drawNum = 26){
-                $("div1-1").src = hrtK;
-            }
-            else if (drawNum = 27){
-                $("div1-1").src = clbA;
-            }
-            else if (drawNum = 28){
-                $("div1-1").src = clb2;
-            }
-            else if (drawNum = 29){
-                $("div1-1").src = clb3;
-            }
-            else if (drawNum = 30){
-                $("div1-1").src = clb4;
-            }
-            else if (drawNum = 31){
-                $("div1-1").src = clb5;
-            }
-            else if (drawNum = 32){
-                $("div1-1").src = clb6;
-            }
-            else if (drawNum = 33){
-                $("div1-1").src = clb7;
-            }
-            else if (drawNum = 34){
-                $("div1-1").src = clb8;
-            }
-            else if (drawNum = 35){
-                $("div1-1").src = clb9;
-            }
-            else if (drawNum = 36){
-                $("div1-1").src = clbJ;
-            }
-            else if (drawNum = 37){
-                $("div1-1").src = clbQ;
-            }
-            else if (drawNum = 38){
-                $("div1-1").src = clbK;
-            }
-            else if (drawNum = 39){
-                $("div1-1").src = spdA;
-            }
-            else if (drawNum = 40){
-                $("div1-1").src = spd2;
-            }
-            else if (drawNum = 41){
-                $("div1-1").src = spd3;
-            }
-            else if (drawNum = 42){
-                $("div1-1").src = spd4;
-            }
-            else if (drawNum = 43){
-                $("div1-1").src = spd5;
-            }
-            else if (drawNum = 44){
-                $("div1-1").src = spd6;
-            }
-            else if (drawNum = 45){
-                $("div1-1").src = spd7;
-            }
-            else if (drawNum = 46){
-                $("div1-1").src = spd8;
-            }
-            else if (drawNum = 47){
-                $("div1-1").src = spd9;
-            }
-            else if (drawNum = 48){
-                $("div1-1").src = spdJ;
-            }
-            else if (drawNum = 49){
-                $("div1-1").src = spdQ;
-            }
-            else if (drawNum = 50){
-                $("div1-1").src = spdK;
-            }
-            else if (drawNum = 51){
-                $("div1-1").src = clb10;
-            }
-            else if (drawNum = 52){
-                $("div1-1").src = spd10;
-            }
-        }
-
-        while ((drawNum[52] == drawNum[1]) || (drawNum[52] == drawNum[2]) || (drawNum[52] == drawNum[3]) || (drawNum[52] == drawNum[4]) || (drawNum[52] == drawNum[5]) || (drawNum[52]
+//
+            while ((drawNum[52] == drawNum[1]) || (drawNum[52] == drawNum[2]) || (drawNum[52] == drawNum[3]) || (drawNum[52] == drawNum[4]) || (drawNum[52] == drawNum[5]) || (drawNum[52]
         == drawNum[6]) || (drawNum[52] == drawNum[7]) || (drawNum[52] == drawNum[8]) || (drawNum[52] == drawNum[9]) || (drawNum[52] == drawNum[10]) || (drawNum[52] == drawNum[11])
         || (drawNum[52] == drawNum[12]) || (drawNum[52] == drawNum[13]) || (drawNum[52] == drawNum[14]) || (drawNum[52] == drawNum[15]) || (drawNum[52] == drawNum[16])
         || (drawNum[52] == drawNum[17]) || (drawNum[52] == drawNum[18]) || (drawNum[52] == drawNum[19]) || (drawNum[52] == drawNum[20]) || (drawNum[52] == drawNum[21])
