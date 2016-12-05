@@ -116,7 +116,7 @@ function Play(){
         45, 46, 47, 48,49, 50, 51, 52];
     for (i = 1 ; i <= 52; i++)
     {
-        drawNum[1] = (int)(Math.random()*52)+1;
+        drawNum[1] = (Math.random()*52)+1;
         if (drawNum = 1){
             $("div1-1").src = diA;
         }
@@ -276,7 +276,7 @@ function Play(){
 
         while (drawNum[2] == drawNum[1])
         {
-            drawNum[2] = (int)(Math.random()*MAX)+1;
+            drawNum[2] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -438,7 +438,7 @@ function Play(){
 
         while ((drawNum[3] == drawNum[1]) || (drawNum[3] == drawNum[2]) )
         {
-            drawNum[3] = (int)(Math.random()*MAX)+1;
+            drawNum[3] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -600,7 +600,7 @@ function Play(){
 
         while ((drawNum[4] == drawNum[1]) || (drawNum[4] == drawNum[2]) || (drawNum[4] == drawNum[3]) )
         {
-            drawNum[4] = (int)(Math.random()*MAX)+1;
+            drawNum[4] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -763,7 +763,7 @@ function Play(){
 
         while ((drawNum[5] == drawNum[1]) || (drawNum[5] == drawNum[2]) || (drawNum[5] == drawNum[3]) || (drawNum[5] == drawNum[4]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -924,12 +924,170 @@ function Play(){
 
 
         while ((drawNum[6] == drawNum[1]) || (drawNum[6] == drawNum[2]) || (drawNum[6] == drawNum[3]) || (drawNum[6] == drawNum[4]) || (drawNum[6] == drawNum[5]) )
-
+        {
+            drawNum[5] = (Math.random()*MAX)+1;
+            if (drawNum = 1){
+                $("div1-1").src = diA;
+            }
+            else if (drawNum = 2){
+                $("div1-1").src = di2;
+            }
+            else if (drawNum = 3){
+                $("div1-1").src = di3;
+            }
+            else if (drawNum = 4){
+                $("div1-1").src = di4;
+            }
+            else if (drawNum = 5){
+                $("div1-1").src = di5;
+            }
+            else if (drawNum = 6){
+                $("div1-1").src = di6;
+            }
+            else if (drawNum = 7){
+                $("div1-1").src = di7;
+            }
+            else if (drawNum = 8){
+                $("div1-1").src = di8;
+            }
+            else if (drawNum = 9){
+                $("div1-1").src = di9;
+            }
+            else if (drawNum = 10){
+                $("div1-1").src = di10;
+            }
+            else if (drawNum = 11){
+                $("div1-1").src = diJ;
+            }
+            else if (drawNum = 12){
+                $("div1-1").src = diQ;
+            }
+            else if (drawNum = 13){
+                $("div1-1").src = diK;
+            }
+            else if (drawNum = 14){
+                $("div1-1").src = hrtA;
+            }
+            else if (drawNum = 15){
+                $("div1-1").src = hrt2;
+            }
+            else if (drawNum = 16){
+                $("div1-1").src = hrt3;
+            }
+            else if (drawNum = 17){
+                $("div1-1").src = hrt4;
+            }
+            else if (drawNum = 18){
+                $("div1-1").src = hrt5;
+            }
+            else if (drawNum = 19){
+                $("div1-1").src = hrt6;
+            }
+            else if (drawNum = 20){
+                $("div1-1").src = hrt7;
+            }
+            else if (drawNum = 21){
+                $("div1-1").src = hrt8;
+            }
+            else if (drawNum = 22){
+                $("div1-1").src = hrt9;
+            }
+            else if (drawNum = 23){
+                $("div1-1").src = hrt10;
+            }
+            else if (drawNum = 24){
+                $("div1-1").src = hrtJ;
+            }
+            else if (drawNum = 25){
+                $("div1-1").src = hrtQ;
+            }
+            else if (drawNum = 26){
+                $("div1-1").src = hrtK;
+            }
+            else if (drawNum = 27){
+                $("div1-1").src = clbA;
+            }
+            else if (drawNum = 28){
+                $("div1-1").src = clb2;
+            }
+            else if (drawNum = 29){
+                $("div1-1").src = clb3;
+            }
+            else if (drawNum = 30){
+                $("div1-1").src = clb4;
+            }
+            else if (drawNum = 31){
+                $("div1-1").src = clb5;
+            }
+            else if (drawNum = 32){
+                $("div1-1").src = clb6;
+            }
+            else if (drawNum = 33){
+                $("div1-1").src = clb7;
+            }
+            else if (drawNum = 34){
+                $("div1-1").src = clb8;
+            }
+            else if (drawNum = 35){
+                $("div1-1").src = clb9;
+            }
+            else if (drawNum = 36){
+                $("div1-1").src = clbJ;
+            }
+            else if (drawNum = 37){
+                $("div1-1").src = clbQ;
+            }
+            else if (drawNum = 38){
+                $("div1-1").src = clbK;
+            }
+            else if (drawNum = 39){
+                $("div1-1").src = spdA;
+            }
+            else if (drawNum = 40){
+                $("div1-1").src = spd2;
+            }
+            else if (drawNum = 41){
+                $("div1-1").src = spd3;
+            }
+            else if (drawNum = 42){
+                $("div1-1").src = spd4;
+            }
+            else if (drawNum = 43){
+                $("div1-1").src = spd5;
+            }
+            else if (drawNum = 44){
+                $("div1-1").src = spd6;
+            }
+            else if (drawNum = 45){
+                $("div1-1").src = spd7;
+            }
+            else if (drawNum = 46){
+                $("div1-1").src = spd8;
+            }
+            else if (drawNum = 47){
+                $("div1-1").src = spd9;
+            }
+            else if (drawNum = 48){
+                $("div1-1").src = spdJ;
+            }
+            else if (drawNum = 49){
+                $("div1-1").src = spdQ;
+            }
+            else if (drawNum = 50){
+                $("div1-1").src = spdK;
+            }
+            else if (drawNum = 51){
+                $("div1-1").src = clb10;
+            }
+            else if (drawNum = 52){
+                $("div1-1").src = spd10;
+            }
+        }
 
         while ((drawNum[7] == drawNum[1]) || (drawNum[7] == drawNum[2]) || (drawNum[7] == drawNum[3]) || (drawNum[7] == drawNum[4]) || (drawNum[7] == drawNum[5]) || (drawNum[7]
         == drawNum[6]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -1092,7 +1250,7 @@ function Play(){
         while ((drawNum[8] == drawNum[1]) || (drawNum[8] == drawNum[2]) || (drawNum[8] == drawNum[3]) || (drawNum[8] == drawNum[4]) || (drawNum[8] == drawNum[5]) || (drawNum[8]
         == drawNum[6]) || (drawNum[8] == drawNum[7])  )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -1255,7 +1413,7 @@ function Play(){
         while ((drawNum[9] == drawNum[1]) || (drawNum[9] == drawNum[2]) || (drawNum[9] == drawNum[3]) || (drawNum[9] == drawNum[4]) || (drawNum[9] == drawNum[5]) || (drawNum[9]
             == drawNum[6]) || (drawNum[9] == drawNum[7]) || (drawNum[9] == drawNum[8]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -1418,7 +1576,7 @@ function Play(){
         while ((drawNum[10] == drawNum[1]) || (drawNum[10] == drawNum[2]) || (drawNum[10] == drawNum[3]) || (drawNum[10] == drawNum[4]) || (drawNum[10] == drawNum[5]) || (drawNum[10]
         == drawNum[6]) || (drawNum[10] == drawNum[7]) || (drawNum[10] == drawNum[8]) || (drawNum[10] == drawNum[9]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -1581,7 +1739,7 @@ function Play(){
         while ((drawNum[11] == drawNum[1]) || (drawNum[11] == drawNum[2]) || (drawNum[11] == drawNum[3]) || (drawNum[11] == drawNum[4]) || (drawNum[11] == drawNum[5]) || (drawNum[11]
         == drawNum[6]) || (drawNum[11] == drawNum[7]) || (drawNum[11] == drawNum[8]) || (drawNum[11] == drawNum[9]) || (drawNum[11] == drawNum[10]))
          {
-        drawNum[5] = (int)(Math.random()*MAX)+1;
+        drawNum[5] = (Math.random()*MAX)+1;
         if (drawNum = 1){
             $("div1-1").src = diA;
         }
@@ -1744,7 +1902,7 @@ function Play(){
         while ((drawNum[12] == drawNum[1]) || (drawNum[12] == drawNum[2]) || (drawNum[12] == drawNum[3]) || (drawNum[12] == drawNum[4]) || (drawNum[12] == drawNum[5]) || (drawNum[12]
         == drawNum[6]) || (drawNum[12] == drawNum[7]) || (drawNum[12] == drawNum[8]) || (drawNum[12] == drawNum[9]) || (drawNum[12] == drawNum[10]) || (drawNum[12] == drawNum[11]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -1908,7 +2066,7 @@ function Play(){
         == drawNum[6]) || (drawNum[13] == drawNum[7]) || (drawNum[13] == drawNum[8]) || (drawNum[13] == drawNum[9]) || (drawNum[13] == drawNum[10]) || (drawNum[13] == drawNum[11])
             || (drawNum[13] == drawNum[12]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -2072,7 +2230,7 @@ function Play(){
         == drawNum[6]) || (drawNum[14] == drawNum[7]) || (drawNum[14] == drawNum[8]) || (drawNum[14] == drawNum[9]) || (drawNum[14] == drawNum[10]) || (drawNum[14] == drawNum[11])
         || (drawNum[14] == drawNum[12]) || (drawNum[14] == drawNum[13]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -2236,7 +2394,7 @@ function Play(){
         == drawNum[6]) || (drawNum[15] == drawNum[7]) || (drawNum[15] == drawNum[8]) || (drawNum[15] == drawNum[9]) || (drawNum[15] == drawNum[10]) || (drawNum[15] == drawNum[11])
         || (drawNum[15] == drawNum[12]) || (drawNum[15] == drawNum[13]) || (drawNum[15] == drawNum[14]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -2400,7 +2558,7 @@ function Play(){
         == drawNum[6]) || (drawNum[16] == drawNum[7]) || (drawNum[16] == drawNum[8]) || (drawNum[16] == drawNum[9]) || (drawNum[16] == drawNum[10]) || (drawNum[16] == drawNum[11])
         || (drawNum[16] == drawNum[12]) || (drawNum[16] == drawNum[13]) || (drawNum[16] == drawNum[14]) || (drawNum[16] == drawNum[15]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -2564,7 +2722,7 @@ function Play(){
         == drawNum[6]) || (drawNum[17] == drawNum[7]) || (drawNum[17] == drawNum[8]) || (drawNum[17] == drawNum[9]) || (drawNum[17] == drawNum[10]) || (drawNum[17] == drawNum[11])
         || (drawNum[17] == drawNum[12]) || (drawNum[17] == drawNum[13]) || (drawNum[17] == drawNum[14]) || (drawNum[17] == drawNum[15]) || (drawNum[17] == drawNum[16]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -2728,7 +2886,7 @@ function Play(){
         == drawNum[6]) || (drawNum[17] == drawNum[7]) || (drawNum[17] == drawNum[8]) || (drawNum[17] == drawNum[9]) || (drawNum[17] == drawNum[10]) || (drawNum[17] == drawNum[11])
         || (drawNum[17] == drawNum[12]) || (drawNum[17] == drawNum[13]) || (drawNum[17] == drawNum[14]) || (drawNum[17] == drawNum[15]) || (drawNum[17] == drawNum[16]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -2893,7 +3051,7 @@ function Play(){
         || (drawNum[18] == drawNum[12]) || (drawNum[18] == drawNum[13]) || (drawNum[18] == drawNum[14]) || (drawNum[18] == drawNum[15]) || (drawNum[18] == drawNum[16])
         || (drawNum[18] == drawNum[17]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -3058,7 +3216,7 @@ function Play(){
         || (drawNum[19] == drawNum[12]) || (drawNum[19] == drawNum[13]) || (drawNum[19] == drawNum[14]) || (drawNum[19] == drawNum[15]) || (drawNum[19] == drawNum[16])
         || (drawNum[19] == drawNum[17]) || (drawNum[19] == drawNum[18]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -3223,7 +3381,7 @@ function Play(){
         || (drawNum[20] == drawNum[12]) || (drawNum[20] == drawNum[13]) || (drawNum[20] == drawNum[14]) || (drawNum[20] == drawNum[15]) || (drawNum[20] == drawNum[16])
         || (drawNum[20] == drawNum[17]) || (drawNum[20] == drawNum[18]) || (drawNum[20] == drawNum[19]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -3388,7 +3546,7 @@ function Play(){
         || (drawNum[21] == drawNum[12]) || (drawNum[21] == drawNum[13]) || (drawNum[21] == drawNum[14]) || (drawNum[21] == drawNum[15]) || (drawNum[21] == drawNum[16])
         || (drawNum[21] == drawNum[17]) || (drawNum[21] == drawNum[18]) || (drawNum[21] == drawNum[19]) || (drawNum[21] == drawNum[20]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -3553,7 +3711,7 @@ function Play(){
         || (drawNum[22] == drawNum[12]) || (drawNum[22] == drawNum[13]) || (drawNum[22] == drawNum[14]) || (drawNum[22] == drawNum[15]) || (drawNum[22] == drawNum[16])
         || (drawNum[22] == drawNum[17]) || (drawNum[22] == drawNum[18]) || (drawNum[22] == drawNum[19]) || (drawNum[22] == drawNum[20]) || (drawNum[22] == drawNum[21]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -3719,7 +3877,7 @@ function Play(){
         || (drawNum[23] == drawNum[17]) || (drawNum[23] == drawNum[18]) || (drawNum[23] == drawNum[19]) || (drawNum[23] == drawNum[20]) || (drawNum[23] == drawNum[21])
         || (drawNum[23] == drawNum[22]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -3885,7 +4043,7 @@ function Play(){
         || (drawNum[24] == drawNum[17]) || (drawNum[24] == drawNum[18]) || (drawNum[24] == drawNum[19]) || (drawNum[24] == drawNum[20]) || (drawNum[24] == drawNum[21])
         || (drawNum[24] == drawNum[22]) || (drawNum[24] == drawNum[23]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -4051,7 +4209,7 @@ function Play(){
         || (drawNum[25] == drawNum[17]) || (drawNum[25] == drawNum[18]) || (drawNum[25] == drawNum[19]) || (drawNum[25] == drawNum[20]) || (drawNum[25] == drawNum[21])
         || (drawNum[25] == drawNum[22]) || (drawNum[25] == drawNum[23]) || (drawNum[25] == drawNum[24]) )
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[5] = (Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -4217,7 +4375,7 @@ function Play(){
         || (drawNum[26] == drawNum[17]) || (drawNum[26] == drawNum[18]) || (drawNum[26] == drawNum[19]) || (drawNum[26] == drawNum[20]) || (drawNum[26] == drawNum[21])
         || (drawNum[26] == drawNum[22]) || (drawNum[26] == drawNum[23]) || (drawNum[26] == drawNum[24]) || (drawNum[26] == drawNum[25]) )
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[26] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div7-13").src = diA;
             }
@@ -4381,7 +4539,7 @@ function Play(){
         || (drawNum[27] == drawNum[17]) || (drawNum[27] == drawNum[18]) || (drawNum[27] == drawNum[19]) || (drawNum[27] == drawNum[20]) || (drawNum[27] == drawNum[21])
         || (drawNum[27] == drawNum[22]) || (drawNum[27] == drawNum[23]) || (drawNum[27] == drawNum[24]) || (drawNum[27] == drawNum[25]) || (drawNum[27] == drawNum[26]) )
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[27] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div7-12").src = diA;
             }
@@ -4546,7 +4704,7 @@ function Play(){
         || (drawNum[28] == drawNum[22]) || (drawNum[28] == drawNum[23]) || (drawNum[28] == drawNum[24]) || (drawNum[28] == drawNum[25]) || (drawNum[28] == drawNum[26])
         || (drawNum[28] == drawNum[27]) )
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[28] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div7-11").src = diA;
             }
@@ -4711,7 +4869,7 @@ function Play(){
         || (drawNum[29] == drawNum[22]) || (drawNum[29] == drawNum[23]) || (drawNum[29] == drawNum[24]) || (drawNum[29] == drawNum[25]) || (drawNum[29] == drawNum[26])
         || (drawNum[29] == drawNum[27]) || (drawNum[29] == drawNum[28]) )
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[29] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div7-10").src = diA;
             }
@@ -4876,7 +5034,7 @@ function Play(){
         || (drawNum[30] == drawNum[22]) || (drawNum[30] == drawNum[23]) || (drawNum[30] == drawNum[24]) || (drawNum[30] == drawNum[25]) || (drawNum[30] == drawNum[26])
         || (drawNum[30] == drawNum[27]) || (drawNum[30] == drawNum[28]) || (drawNum[30] == drawNum[29])  )
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[30] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div7-9").src = diA;
             }
@@ -5041,7 +5199,7 @@ function Play(){
         || (drawNum[31] == drawNum[22]) || (drawNum[31] == drawNum[23]) || (drawNum[31] == drawNum[24]) || (drawNum[31] == drawNum[25]) || (drawNum[31] == drawNum[26])
         || (drawNum[31] == drawNum[27]) || (drawNum[31] == drawNum[28]) || (drawNum[31] == drawNum[29]) || (drawNum[31] == drawNum[30]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[31] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div7-8").src = diA;
             }
@@ -5206,7 +5364,7 @@ function Play(){
         || (drawNum[32] == drawNum[22]) || (drawNum[32] == drawNum[23]) || (drawNum[32] == drawNum[24]) || (drawNum[32] == drawNum[25]) || (drawNum[32] == drawNum[26])
         || (drawNum[32] == drawNum[27]) || (drawNum[32] == drawNum[28]) || (drawNum[32] == drawNum[29]) || (drawNum[32] == drawNum[30])|| (drawNum[32] == drawNum[31]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[32] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div7-7").src = diA;
             }
@@ -5372,7 +5530,7 @@ function Play(){
         || (drawNum[33] == drawNum[27]) || (drawNum[33] == drawNum[28]) || (drawNum[33] == drawNum[29]) || (drawNum[33] == drawNum[30])|| (drawNum[33] == drawNum[31])
         || (drawNum[33] == drawNum[32]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[33] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div6-10").src = diA;
             }
@@ -5538,7 +5696,7 @@ function Play(){
         || (drawNum[34] == drawNum[27]) || (drawNum[34] == drawNum[28]) || (drawNum[34] == drawNum[29]) || (drawNum[34] == drawNum[30])|| (drawNum[34] == drawNum[31])
         || (drawNum[34] == drawNum[32])|| (drawNum[34] == drawNum[33]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[34] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div6-9").src = diA;
             }
@@ -5704,7 +5862,7 @@ function Play(){
         || (drawNum[35] == drawNum[27]) || (drawNum[35] == drawNum[28]) || (drawNum[35] == drawNum[29]) || (drawNum[35] == drawNum[30])|| (drawNum[35] == drawNum[31])
         || (drawNum[35] == drawNum[32])|| (drawNum[35] == drawNum[33])|| (drawNum[35] == drawNum[34]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[35] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div6-8").src = diA;
             }
@@ -5870,7 +6028,7 @@ function Play(){
         || (drawNum[36] == drawNum[27]) || (drawNum[36] == drawNum[28]) || (drawNum[36] == drawNum[29]) || (drawNum[36] == drawNum[30])|| (drawNum[36] == drawNum[31])
         || (drawNum[36] == drawNum[32])|| (drawNum[36] == drawNum[33])|| (drawNum[36] == drawNum[34])|| (drawNum[36] == drawNum[35]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[36] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div6-7").src = diA;
             }
@@ -6036,7 +6194,7 @@ function Play(){
         || (drawNum[37] == drawNum[27]) || (drawNum[37] == drawNum[28]) || (drawNum[37] == drawNum[29]) || (drawNum[37] == drawNum[30])|| (drawNum[37] == drawNum[31])
         || (drawNum[37] == drawNum[32])|| (drawNum[37] == drawNum[33])|| (drawNum[37] == drawNum[34])|| (drawNum[37] == drawNum[35])|| (drawNum[37] == drawNum[36]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[37] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div6-6").src = diA;
             }
@@ -6203,7 +6361,7 @@ function Play(){
         || (drawNum[38] == drawNum[32])|| (drawNum[38] == drawNum[33])|| (drawNum[38] == drawNum[34])|| (drawNum[38] == drawNum[35])|| (drawNum[38] == drawNum[36])
         || (drawNum[38] == drawNum[37]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[38] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div5-9").src = diA;
             }
@@ -6370,7 +6528,7 @@ function Play(){
         || (drawNum[39] == drawNum[32])|| (drawNum[39] == drawNum[33])|| (drawNum[39] == drawNum[34])|| (drawNum[39] == drawNum[35])|| (drawNum[39] == drawNum[36])
         || (drawNum[39] == drawNum[37])|| (drawNum[39] == drawNum[38]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[39] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div5-8").src = diA;
             }
@@ -6537,7 +6695,7 @@ function Play(){
         || (drawNum[40] == drawNum[32])|| (drawNum[40] == drawNum[33])|| (drawNum[40] == drawNum[34])|| (drawNum[40] == drawNum[35])|| (drawNum[40] == drawNum[36])
         || (drawNum[40] == drawNum[37])|| (drawNum[40] == drawNum[38])|| (drawNum[40] == drawNum[39]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[40] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div5-7").src = diA;
             }
@@ -6704,7 +6862,7 @@ function Play(){
         || (drawNum[41] == drawNum[32])|| (drawNum[41] == drawNum[33])|| (drawNum[41] == drawNum[34])|| (drawNum[41] == drawNum[35])|| (drawNum[41] == drawNum[36])
         || (drawNum[41] == drawNum[37])|| (drawNum[41] == drawNum[38])|| (drawNum[41] == drawNum[39])|| (drawNum[41] == drawNum[40]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[41] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div5-6").src = diA;
             }
@@ -6871,7 +7029,7 @@ function Play(){
         || (drawNum[42] == drawNum[32])|| (drawNum[42] == drawNum[33])|| (drawNum[42] == drawNum[34])|| (drawNum[42] == drawNum[35])|| (drawNum[42] == drawNum[36])
         || (drawNum[42] == drawNum[37])|| (drawNum[42] == drawNum[38])|| (drawNum[42] == drawNum[39])|| (drawNum[42] == drawNum[40])|| (drawNum[42] == drawNum[41]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[42] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div5-5").src = diA;
             }
@@ -7037,9 +7195,8 @@ function Play(){
         || (drawNum[43] == drawNum[27]) || (drawNum[43] == drawNum[28]) || (drawNum[43] == drawNum[29]) || (drawNum[43] == drawNum[30])|| (drawNum[43] == drawNum[31])
         || (drawNum[43] == drawNum[32])|| (drawNum[43] == drawNum[33])|| (drawNum[43] == drawNum[34])|| (drawNum[43] == drawNum[35])|| (drawNum[43] == drawNum[36])
         || (drawNum[43] == drawNum[37])|| (drawNum[43] == drawNum[38])|| (drawNum[43] == drawNum[39])|| (drawNum[43] == drawNum[40])|| (drawNum[43] == drawNum[41])
-        || (drawNum[43] == drawNum[42]))
-        {
-            drawNum[52] = (int)(Math.random()*52)+1;
+        || (drawNum[43] == drawNum[42])) {
+            drawNum[43] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div4-7").src = diA;
             }
@@ -7207,7 +7364,7 @@ function Play(){
         || (drawNum[44] == drawNum[37])|| (drawNum[44] == drawNum[38])|| (drawNum[44] == drawNum[39])|| (drawNum[44] == drawNum[40])|| (drawNum[44] == drawNum[41])
         || (drawNum[44] == drawNum[42])|| (drawNum[44] == drawNum[43]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[44] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div4-6").src = diA;
             }
@@ -7375,7 +7532,7 @@ function Play(){
         || (drawNum[45] == drawNum[37])|| (drawNum[45] == drawNum[38])|| (drawNum[45] == drawNum[39])|| (drawNum[45] == drawNum[40])|| (drawNum[45] == drawNum[41])
         || (drawNum[45] == drawNum[42])|| (drawNum[45] == drawNum[43])|| (drawNum[45] == drawNum[44]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[45] = (int)(Math.random()*52)+1;
             if (drawNum = 1){
                 $("div4-5").src = diA;
             }
@@ -7543,7 +7700,7 @@ function Play(){
         || (drawNum[46] == drawNum[37])|| (drawNum[46] == drawNum[38])|| (drawNum[46] == drawNum[39])|| (drawNum[46] == drawNum[40])|| (drawNum[46] == drawNum[41])
         || (drawNum[46] == drawNum[42])|| (drawNum[46] == drawNum[43])|| (drawNum[46] == drawNum[44])|| (drawNum[46] == drawNum[45]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[46] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div4-4").src = diA;
             }
@@ -7711,7 +7868,7 @@ function Play(){
         || (drawNum[47] == drawNum[37])|| (drawNum[47] == drawNum[38])|| (drawNum[47] == drawNum[39])|| (drawNum[47] == drawNum[40])|| (drawNum[47] == drawNum[41])
         || (drawNum[47] == drawNum[42])|| (drawNum[47] == drawNum[43])|| (drawNum[47] == drawNum[44])|| (drawNum[47] == drawNum[45])|| (drawNum[47] == drawNum[46]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[47] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div3-5").src = diA;
             }
@@ -7880,7 +8037,7 @@ function Play(){
         || (drawNum[48] == drawNum[42])|| (drawNum[48] == drawNum[43])|| (drawNum[48] == drawNum[44])|| (drawNum[48] == drawNum[45])|| (drawNum[48] == drawNum[46])
         || (drawNum[48] == drawNum[47]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[52] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div3-4").src = diA;
             }
@@ -8049,7 +8206,7 @@ function Play(){
         || (drawNum[49] == drawNum[42])|| (drawNum[49] == drawNum[43])|| (drawNum[49] == drawNum[44])|| (drawNum[49] == drawNum[45])|| (drawNum[49] == drawNum[46])
         || (drawNum[49] == drawNum[47])|| (drawNum[49] == drawNum[48]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[49] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div3-3").src = diA;
             }
@@ -8218,7 +8375,7 @@ function Play(){
         || (drawNum[50] == drawNum[42])|| (drawNum[50] == drawNum[43])|| (drawNum[50] == drawNum[44])|| (drawNum[50] == drawNum[45])|| (drawNum[50] == drawNum[46])
         || (drawNum[50] == drawNum[47])|| (drawNum[50] == drawNum[48])|| (drawNum[50] == drawNum[49]))
         {
-            drawNum[52] = (int)(Math.random()*52)+1;
+            drawNum[50] = (Math.random()*52)+1;
             if (drawNum = 1){
                 $("div2-3").src = diA;
             }
@@ -8386,7 +8543,7 @@ function Play(){
         || (drawNum[51] == drawNum[37])|| (drawNum[51] == drawNum[38])|| (drawNum[51] == drawNum[39])|| (drawNum[51] == drawNum[40])|| (drawNum[51] == drawNum[41])
         || (drawNum[51] == drawNum[42])|| (drawNum[51] == drawNum[43])|| (drawNum[51] == drawNum[44])|| (drawNum[51] == drawNum[45])|| (drawNum[51] == drawNum[46])
         || (drawNum[51] == drawNum[47])|| (drawNum[51] == drawNum[48])|| (drawNum[51] == drawNum[49]) || (drawNum[51] == drawNum[50])) {
-            drawNum[52] = (int)(Math.random() * 52) + 1;
+            drawNum[51] = (Math.random() * 52) + 1;
             if (drawNum = 1) {
                 $("div2-2").src = diA;
             }
@@ -8556,7 +8713,7 @@ function Play(){
         || (drawNum[52] == drawNum[42])|| (drawNum[52] == drawNum[43])|| (drawNum[52] == drawNum[44])|| (drawNum[52] == drawNum[45])|| (drawNum[52] == drawNum[46])
         || (drawNum[52] == drawNum[47])|| (drawNum[52] == drawNum[48])|| (drawNum[52] == drawNum[49]) || (drawNum[52] == drawNum[50]) || (drawNum[52] == drawNum[51]))
         {
-            drawNum[5] = (int)(Math.random()*MAX)+1;
+            drawNum[52] =(Math.random()*MAX)+1;
             if (drawNum = 1){
                 $("div1-1").src = diA;
             }
@@ -8715,10 +8872,11 @@ function Play(){
             }
         }
     }
+
+    
 }
 
 //background color options
-
 
 function changeColor(value){
     var color = document.body.style.backgroundColor;
