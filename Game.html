@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF_8">
     <title>Game</title>
     <link rel="stylesheet" type = "text/css" href="styles.css">
     <script type="text/javascript" src="scripts.js">
     </script>
 </head>
-<body>
+<body onload="Play()">
     <input type = "button" src = "" onclick = "Deck()">
 
     <div id = "cpt">
@@ -28,130 +28,130 @@
     <div id = "playfield">
             <table id = "table">
                 <tr>
-                    <td><div dropzone="move" id = "div1-1"></div></td>
-                     <td><div dropzone="move" id = "div2-1"></div></td>
-                     <td><div dropzone="move" id = "div3-1"></div></td>
-                     <td><div dropzone="move" id = "div4-1"></div></td>
-                     <td><div dropzone="move" id = "div5-1"></div></td>
-                     <td><div dropzone="move" id = "div6-1"></div></td>
-                     <td><div dropzone="move" id = "div7-1"></div></td>
+                    <td><div dropzone="move" id = "div1_1"></div></td>
+                     <td><div dropzone="move" id = "div2_1"></div></td>
+                     <td><div dropzone="move" id = "div3_1"></div></td>
+                     <td><div dropzone="move" id = "div4_1"></div></td>
+                     <td><div dropzone="move" id = "div5_1"></div></td>
+                     <td><div dropzone="move" id = "div6_1"></div></td>
+                     <td><div dropzone="move" id = "div7_1"></div></td>
                 </tr>
                 <tr>
-                    <td><div dropzone="move" id = "div1-2"></div></td>
-                    <td><div dropzone="move" id = "div2-2"></div></td>
-                    <td><div dropzone="move" id = "div3-2"></div></td>
-                    <td><div dropzone="move" id = "div4-2"></div></td>
-                    <td><div dropzone="move" id = "div5-2"></div></td>
-                    <td><div dropzone="move" id = "div6-2"></div></td>
-                    <td><div dropzone="move" id = "div7-2"></div></td>
+                    <td><div dropzone="move" id = "div1_2"></div></td>
+                    <td><div dropzone="move" id = "div2_2"></div></td>
+                    <td><div dropzone="move" id = "div3_2"></div></td>
+                    <td><div dropzone="move" id = "div4_2"></div></td>
+                    <td><div dropzone="move" id = "div5_2"></div></td>
+                    <td><div dropzone="move" id = "div6_2"></div></td>
+                    <td><div dropzone="move" id = "div7_2"></div></td>
                 </tr>
                 <tr>
-                    <td><div dropzone="move" id = "div1-3"></div></td>
-                    <td><div dropzone="move" id = "div2-3"></div></td>
-                    <td><div dropzone="move" id = "div3-3"></div></td>
-                    <td><div dropzone="move" id = "div4-3"></div></td>
-                    <td><div dropzone="move" id = "div5-3"></div></td>
-                    <td><div dropzone="move" id = "div6-3"></div></td>
-                    <td><div dropzone="move" id = "div7-3"></div></td>
+                    <td><div dropzone="move" id = "div1_3"></div></td>
+                    <td><div dropzone="move" id = "div2_3"></div></td>
+                    <td><div dropzone="move" id = "div3_3"></div></td>
+                    <td><div dropzone="move" id = "div4_3"></div></td>
+                    <td><div dropzone="move" id = "div5_3"></div></td>
+                    <td><div dropzone="move" id = "div6_3"></div></td>
+                    <td><div dropzone="move" id = "div7_3"></div></td>
                 </tr>
                 <tr>
-                    <td><div dropzone="move" id = "div1-4"></div></td>
-                    <td><div dropzone="move" id = "div2-4"></div></td>
-                    <td><div dropzone="move" id = "div3-4"></div></td>
-                    <td><div dropzone="move" id = "div4-4"></div></td>
-                    <td><div dropzone="move" id = "div5-4"></div></td>
-                    <td><div dropzone="move" id = "div6-4"></div></td>
-                    <td><div dropzone="move" id = "div7-4"></div></td>
+                    <td><div dropzone="move" id = "div1_4"></div></td>
+                    <td><div dropzone="move" id = "div2_4"></div></td>
+                    <td><div dropzone="move" id = "div3_4"></div></td>
+                    <td><div dropzone="move" id = "div4_4"></div></td>
+                    <td><div dropzone="move" id = "div5_4"></div></td>
+                    <td><div dropzone="move" id = "div6_4"></div></td>
+                    <td><div dropzone="move" id = "div7_4"></div></td>
                 </tr>
                 <tr>
-                    <td><div dropzone="move" id = "div1-5"></div></td>
-                    <td><div dropzone="move" id = "div2-5"></div></td>
-                    <td><div dropzone="move" id = "div3-5"></div></td>
-                    <td><div dropzone="move" id = "div4-5"></div></td>
-                    <td><div dropzone="move" id = "div5-5"></div></td>
-                    <td><div dropzone="move" id = "div6-5"></div></td>
-                    <td><div dropzone="move" id = "div7-5"></div></td>
+                    <td><div dropzone="move" id = "div1_5"></div></td>
+                    <td><div dropzone="move" id = "div2_5"></div></td>
+                    <td><div dropzone="move" id = "div3_5"></div></td>
+                    <td><div dropzone="move" id = "div4_5"></div></td>
+                    <td><div dropzone="move" id = "div5_5"></div></td>
+                    <td><div dropzone="move" id = "div6_5"></div></td>
+                    <td><div dropzone="move" id = "div7_5"></div></td>
                 </tr>
                 <tr>
-                    <td><div dropzone="move" id = "div1-6"></div></td>
-                    <td><div dropzone="move" id = "div2-6"></div></td>
-                    <td><div dropzone="move" id = "div3-6"></div></td>
-                    <td><div dropzone="move" id = "div4-6"></div></td>
-                    <td><div dropzone="move" id = "div5-6"></div></td>
-                    <td><div dropzone="move" id = "div6-6"></div></td>
-                    <td><div dropzone="move" id = "div7-6"></div></td>
+                    <td><div dropzone="move" id = "div1_6"></div></td>
+                    <td><div dropzone="move" id = "div2_6"></div></td>
+                    <td><div dropzone="move" id = "div3_6"></div></td>
+                    <td><div dropzone="move" id = "div4_6"></div></td>
+                    <td><div dropzone="move" id = "div5_6"></div></td>
+                    <td><div dropzone="move" id = "div6_6"></div></td>
+                    <td><div dropzone="move" id = "div7_6"></div></td>
                 </tr>
                 <tr>
-                    <td><div dropzone="move" id = "div1-7"></div></td>
-                    <td><div dropzone="move" id = "div2-7"></div></td>
-                    <td><div dropzone="move" id = "div3-7"></div></td>
-                    <td><div dropzone="move" id = "div4-7"></div></td>
-                    <td><div dropzone="move" id = "div5-7"></div></td>
-                    <td><div dropzone="move" id = "div6-7"></div></td>
-                    <td><div dropzone="move" id = "div7-7"></div></td>
+                    <td><div dropzone="move" id = "div1_7"></div></td>
+                    <td><div dropzone="move" id = "div2_7"></div></td>
+                    <td><div dropzone="move" id = "div3_7"></div></td>
+                    <td><div dropzone="move" id = "div4_7"></div></td>
+                    <td><div dropzone="move" id = "div5_7"></div></td>
+                    <td><div dropzone="move" id = "div6_7"></div></td>
+                    <td><div dropzone="move" id = "div7_7"></div></td>
                 </tr>
                 <tr>
-                    <td><div dropzone="move" id = "div1-8"></div></td>
-                    <td><div dropzone="move" id = "div2-8"></div></td>
-                    <td><div dropzone="move" id = "div3-8"></div></td>
-                    <td><div dropzone="move" id = "div4-8"></div></td>
-                    <td><div dropzone="move" id = "div5-8"></div></td>
-                    <td><div dropzone="move" id = "div6-8"></div></td>
-                    <td><div dropzone="move" id = "div7-8"></div></td>
+                    <td><div dropzone="move" id = "div1_8"></div></td>
+                    <td><div dropzone="move" id = "div2_8"></div></td>
+                    <td><div dropzone="move" id = "div3_8"></div></td>
+                    <td><div dropzone="move" id = "div4_8"></div></td>
+                    <td><div dropzone="move" id = "div5_8"></div></td>
+                    <td><div dropzone="move" id = "div6_8"></div></td>
+                    <td><div dropzone="move" id = "div7_8"></div></td>
                 </tr>
                 <tr>
-                    <td><div dropzone="move" id = "div1-9"></div></td>
-                    <td><div dropzone="move" id = "div2-9"></div></td>
-                    <td><div dropzone="move" id = "div3-9"></div></td>
-                    <td><div dropzone="move" id = "div4-9"></div></td>
-                    <td><div dropzone="move" id = "div5-9"></div></td>
-                    <td><div dropzone="move" id = "div6-9"></div></td>
-                    <td><div dropzone="move" id = "div7-9"></div></td>
+                    <td><div dropzone="move" id = "div1_9"></div></td>
+                    <td><div dropzone="move" id = "div2_9"></div></td>
+                    <td><div dropzone="move" id = "div3_9"></div></td>
+                    <td><div dropzone="move" id = "div4_9"></div></td>
+                    <td><div dropzone="move" id = "div5_9"></div></td>
+                    <td><div dropzone="move" id = "div6_9"></div></td>
+                    <td><div dropzone="move" id = "div7_9"></div></td>
                 </tr>
                 <tr>
-                    <td><div dropzone="move" id = "div1-10"></div></td>
-                    <td><div dropzone="move" id = "div2-10"></div></td>
-                    <td><div dropzone="move" id = "div3-10"></div></td>
-                    <td><div dropzone="move" id = "div4-10"></div></td>
-                    <td><div dropzone="move" id = "div5-10"></div></td>
-                    <td><div dropzone="move" id = "div6-10"></div></td>
-                    <td><div dropzone="move" id = "div7-10"></div></td>
+                    <td><div dropzone="move" id = "div1_10"></div></td>
+                    <td><div dropzone="move" id = "div2_10"></div></td>
+                    <td><div dropzone="move" id = "div3_10"></div></td>
+                    <td><div dropzone="move" id = "div4_10"></div></td>
+                    <td><div dropzone="move" id = "div5_10"></div></td>
+                    <td><div dropzone="move" id = "div6_10"></div></td>
+                    <td><div dropzone="move" id = "div7_10"></div></td>
                 </tr>
                 <tr>
-                    <td><div dropzone="move" id = "div1-11"></div></td>
-                    <td><div dropzone="move" id = "div2-11"></div></td>
-                    <td><div dropzone="move" id = "div3-11"></div></td>
-                    <td><div dropzone="move" id = "div4-11"></div></td>
-                    <td><div dropzone="move" id = "div5-11"></div></td>
-                    <td><div dropzone="move" id = "div6-11"></div></td>
-                    <td><div dropzone="move" id = "div7-11"></div></td>
+                    <td><div dropzone="move" id = "div1_11"></div></td>
+                    <td><div dropzone="move" id = "div2_11"></div></td>
+                    <td><div dropzone="move" id = "div3_11"></div></td>
+                    <td><div dropzone="move" id = "div4_11"></div></td>
+                    <td><div dropzone="move" id = "div5_11"></div></td>
+                    <td><div dropzone="move" id = "div6_11"></div></td>
+                    <td><div dropzone="move" id = "div7_11"></div></td>
                 </tr>
                 <tr>
-                    <td><div dropzone="move" id = "div1-12"></div></td>
-                    <td><div dropzone="move" id = "div2-12"></div></td>
-                    <td><div dropzone="move" id = "div3-12"></div></td>
-                    <td><div dropzone="move" id = "div4-12"></div></td>
-                    <td><div dropzone="move" id = "div5-12"></div></td>
-                    <td><div dropzone="move" id = "div6-12"></div></td>
-                    <td><div dropzone="move" id = "div7-12"></div></td>
+                    <td><div dropzone="move" id = "div1_12"></div></td>
+                    <td><div dropzone="move" id = "div2_12"></div></td>
+                    <td><div dropzone="move" id = "div3_12"></div></td>
+                    <td><div dropzone="move" id = "div4_12"></div></td>
+                    <td><div dropzone="move" id = "div5_12"></div></td>
+                    <td><div dropzone="move" id = "div6_12"></div></td>
+                    <td><div dropzone="move" id = "div7_12"></div></td>
                 </tr>
                 <tr>
-                    <td><div dropzone="move" id = "div1-13"></div></td>
-                    <td><div dropzone="move" id = "div2-13"></div></td>
-                    <td><div dropzone="move" id = "div3-13"></div></td>
-                    <td><div dropzone="move" id = "div4-13"></div></td>
-                    <td><div dropzone="move" id = "div5-13"></div></td>
-                    <td><div dropzone="move" id = "div6-13"></div></td>
-                    <td><div dropzone="move" id = "div7-13"></div></td>
+                    <td><div dropzone="move" id = "div1_13"></div></td>
+                    <td><div dropzone="move" id = "div2_13"></div></td>
+                    <td><div dropzone="move" id = "div3_13"></div></td>
+                    <td><div dropzone="move" id = "div4_13"></div></td>
+                    <td><div dropzone="move" id = "div5_13"></div></td>
+                    <td><div dropzone="move" id = "div6_13"></div></td>
+                    <td><div dropzone="move" id = "div7_13"></div></td>
                 </tr>
                 <tr>
-                    <td><div dropzone="move" id = "div1-14"></div></td>
-                    <td><div dropzone="move" id = "div2-14"></div></td>
-                    <td><div dropzone="move" id = "div3-14"></div></td>
-                    <td><div dropzone="move" id = "div4-14"></div></td>
-                    <td><div dropzone="move" id = "div5-14"></div></td>
-                    <td><div dropzone="move" id = "div6-14"></div></td>
-                    <td><div dropzone="move" id = "div7-14"></div></td>
+                    <td><div dropzone="move" id = "div1_14"></div></td>
+                    <td><div dropzone="move" id = "div2_14"></div></td>
+                    <td><div dropzone="move" id = "div3_14"></div></td>
+                    <td><div dropzone="move" id = "div4_14"></div></td>
+                    <td><div dropzone="move" id = "div5_14"></div></td>
+                    <td><div dropzone="move" id = "div6_14"></div></td>
+                    <td><div dropzone="move" id = "div7_14"></div></td>
                 </tr>
             </table>
 
